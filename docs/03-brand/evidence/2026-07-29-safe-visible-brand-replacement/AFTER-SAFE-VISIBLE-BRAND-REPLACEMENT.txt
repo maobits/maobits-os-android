@@ -1,0 +1,87 @@
+=== AFTER SAFE VISIBLE BRAND REPLACEMENT ===
+Generated at: 2026-07-29T22:08:36-05:00
+
+=== GIT STATUS ===
+ M app/src/main/AndroidManifest.xml
+ M app/src/main/res/values-ar/strings.xml
+ M app/src/main/res/values-bn/strings.xml
+ M app/src/main/res/values-de/strings.xml
+ M app/src/main/res/values-es/strings.xml
+ M app/src/main/res/values-fa/strings.xml
+ M app/src/main/res/values-fil/strings.xml
+ M app/src/main/res/values-fr/strings.xml
+ M app/src/main/res/values-he/strings.xml
+ M app/src/main/res/values-hi/strings.xml
+ M app/src/main/res/values-id/strings.xml
+ M app/src/main/res/values-it/strings.xml
+ M app/src/main/res/values-ja/strings.xml
+ M app/src/main/res/values-ka/strings.xml
+ M app/src/main/res/values-ko/strings.xml
+ M app/src/main/res/values-mg/strings.xml
+ M app/src/main/res/values-ms/strings.xml
+ M app/src/main/res/values-ne/strings.xml
+ M app/src/main/res/values-nl/strings.xml
+ M app/src/main/res/values-pa-rPK/strings.xml
+ M app/src/main/res/values-pl/strings.xml
+ M app/src/main/res/values-pt-rBR/strings.xml
+ M app/src/main/res/values-pt/strings.xml
+ M app/src/main/res/values-ru/strings.xml
+ M app/src/main/res/values-sv/strings.xml
+ M app/src/main/res/values-ta/strings.xml
+ M app/src/main/res/values-th/strings.xml
+ M app/src/main/res/values-tr/strings.xml
+ M app/src/main/res/values-uk/strings.xml
+ M app/src/main/res/values-ur/strings.xml
+ M app/src/main/res/values-vi/strings.xml
+ M app/src/main/res/values-zh-rCN/strings.xml
+ M app/src/main/res/values-zh-rTW/strings.xml
+ M app/src/main/res/values-zh/strings.xml
+ M app/src/main/res/values/strings.xml
+ M settings.gradle.kts
+ M wear/src/main/res/values/strings.xml
+?? docs/03-brand/
+?? "econds)\""
+?? ettings.gradle.kts
+
+=== ROOT PROJECT NAME ===
+16:rootProject.name = "maobits-os-android"
+
+=== APP NAME STRINGS ===
+app/src/main/res/values-ar/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-bn/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-de/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-es/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-fa/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-fil/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-fr/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-he/strings.xml:58:  <string name="app_name">Maobits OS</string>
+app/src/main/res/values-hi/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-id/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-it/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-ja/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-ka/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-ko/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-mg/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-ms/strings.xml:4:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-ne/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-nl/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-pa-rPK/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-pl/strings.xml:60:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-pt-rBR/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-pt/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-ru/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-sv/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-ta/strings.xml:44:  <string name="app_name">Maobits OS</string>
+app/src/main/res/values-th/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-tr/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-uk/strings.xml:45:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-ur/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-vi/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values-zh-rCN/strings.xml:58:  <string name="app_name">Maobits OS</string>
+app/src/main/res/values-zh-rTW/strings.xml:58:  <string name="app_name">Maobits OS</string>
+app/src/main/res/values-zh/strings.xml:3:    <string name="app_name">Maobits OS</string>
+app/src/main/res/values/strings.xml:8:    <string name="app_name">Maobits OS</string>
+wear/src/main/res/values/strings.xml:3:    <string name="app_name">Maobits OS</string>
+
+=== SHARE LABEL ===
+160:            android:label="Share Maobits OS"
