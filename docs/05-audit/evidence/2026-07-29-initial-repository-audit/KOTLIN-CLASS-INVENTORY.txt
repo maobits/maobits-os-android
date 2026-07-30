@@ -1,0 +1,361 @@
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:19:class FileTransferTest {
+app/src/test/kotlin/com/bitchat/ColorTest.kt:12:class ColorTest {
+app/src/test/kotlin/com/bitchat/MeshPacketUtilsTest.kt:7:class MeshPacketUtilsTest {
+app/src/test/kotlin/com/bitchat/PeerManagerTest.kt:9:class PeerManagerTest {
+app/src/test/kotlin/com/bitchat/MainViewModelTest.kt:10:class MainViewModelTest {
+app/src/test/kotlin/com/bitchat/android/sync/GCSFilterTest.kt:8:class GCSFilterTest {
+app/src/test/kotlin/com/bitchat/android/services/ConversationAliasResolverTest.kt:14:class ConversationAliasResolverTest {
+app/src/test/kotlin/com/bitchat/android/services/MessageRouterTest.kt:31:class MessageRouterTest {
+app/src/test/kotlin/com/bitchat/android/services/ConversationRepositoryTest.kt:21:class ConversationRepositoryTest {
+app/src/test/kotlin/com/bitchat/android/services/ConversationListPreferencesTest.kt:18:class ConversationListPreferencesTest {
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:14:class AppStateStoreTest {
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:26:class ConversationDatabaseTest {
+app/src/test/kotlin/com/bitchat/android/services/ContactDirectoryTest.kt:19:class ContactDirectoryTest {
+app/src/test/kotlin/com/bitchat/android/services/IncomingMessageAdmissionTest.kt:27:class IncomingMessageAdmissionTest {
+app/src/test/kotlin/com/bitchat/android/services/meshgraph/MeshGraphServiceTest.kt:7:class MeshGraphServiceTest {
+app/src/test/kotlin/com/bitchat/android/ui/PrivateChatManagerTest.kt:29:class PrivateChatManagerTest {
+app/src/test/kotlin/com/bitchat/android/ui/MeshDelegateHandlerStateContractTest.kt:26:class MeshDelegateHandlerStateContractTest {
+app/src/test/kotlin/com/bitchat/android/ui/LanguageCatalogContractTest.kt:8:class LanguageCatalogContractTest {
+app/src/test/kotlin/com/bitchat/android/ui/UnreadConversationSummaryTest.kt:9:class UnreadConversationSummaryTest {
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:42:class MediaSendingManagerMigrationTest {
+app/src/test/kotlin/com/bitchat/android/ui/ConversationSummaryTest.kt:13:class ConversationSummaryTest {
+app/src/test/kotlin/com/bitchat/android/nostr/NearbyNotesControllerTest.kt:10:class NearbyNotesControllerTest {
+app/src/test/kotlin/com/bitchat/android/nostr/NostrProtocolTest.kt:8:class NostrProtocolTest {
+app/src/test/kotlin/com/bitchat/android/nostr/NostrPendingEventQueueTest.kt:8:class NostrPendingEventQueueTest {
+app/src/test/kotlin/com/bitchat/android/nostr/NostrBackgroundEventProcessorTest.kt:20:class NostrBackgroundEventProcessorTest {
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:40:class NostrDirectMessageHandlerTest {
+app/src/test/kotlin/com/bitchat/android/nostr/NostrRelayManagerLifecycleSmokeTest.kt:11:class NostrRelayManagerLifecycleSmokeTest {
+app/src/test/kotlin/com/bitchat/android/model/AuthenticatedPeerStateTest.kt:8:class AuthenticatedPeerStateTest {
+app/src/test/kotlin/com/bitchat/android/model/IdentityAnnouncementTest.kt:9:class IdentityAnnouncementTest {
+app/src/test/kotlin/com/bitchat/android/features/file/FileUtilsConversationCleanupTest.kt:17:class FileUtilsConversationCleanupTest {
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:31:class ClientRewriteWireContractTest {
+app/src/test/kotlin/com/bitchat/android/identity/PrivateMediaCapabilityPinPersistenceTest.kt:19:class PrivateMediaCapabilityPinPersistenceTest {
+app/src/test/kotlin/com/bitchat/android/wifi-aware/IngressLinkPolicyTest.kt:7:class IngressLinkPolicyTest {
+app/src/test/kotlin/com/bitchat/android/wifi-aware/WifiAwareConnectionTrackerTest.kt:18:class WifiAwareConnectionTrackerTest {
+app/src/test/kotlin/com/bitchat/android/wifi-aware/SyncedSocketContractTest.kt:24:class SyncedSocketContractTest {
+app/src/test/kotlin/com/bitchat/android/util/DistributionInfoProviderTest.kt:17:class DistributionInfoProviderTest {
+app/src/test/kotlin/com/bitchat/android/util/GitHubReleaseClientTest.kt:12:class GitHubReleaseClientTest {
+app/src/test/kotlin/com/bitchat/android/noise/NoiseExternalVectorTest.kt:17:class NoiseExternalVectorTest {
+app/src/test/kotlin/com/bitchat/android/noise/NoiseSessionManagerIdentityBindingTest.kt:18:class NoiseSessionManagerIdentityBindingTest {
+app/src/test/kotlin/com/bitchat/android/noise/NoiseSessionManagerHandshakeTimeoutTest.kt:13:class NoiseSessionManagerHandshakeTimeoutTest {
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:26:class SecurityManagerTest {
+app/src/test/kotlin/com/bitchat/android/mesh/PacketRelayManagerTest.kt:19:class PacketRelayManagerTest {
+app/src/test/kotlin/com/bitchat/android/mesh/PacketProcessorAnnounceSideEffectTest.kt:16:class PacketProcessorAnnounceSideEffectTest {
+app/src/test/kotlin/com/bitchat/android/mesh/AuthenticatedPeerStateCoordinatorTest.kt:20:class AuthenticatedPeerStateCoordinatorTest {
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaSecurityTest.kt:10:class PrivateMediaSecurityTest {
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:39:class MessageHandlerTest {
+app/src/test/kotlin/com/bitchat/android/mesh/PowerProfileResolverTest.kt:8:class PowerProfileResolverTest {
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:19:class PrivateMediaTransferPreparerTest {
+app/src/test/kotlin/com/bitchat/android/mesh/DirectLinkAnnouncementPolicyTest.kt:10:class DirectLinkAnnouncementPolicyTest {
+app/src/test/kotlin/com/bitchat/android/mesh/BluetoothConnectionTrackerLinkObservationTest.kt:17:class BluetoothConnectionTrackerLinkObservationTest {
+app/src/test/kotlin/com/bitchat/android/mesh/RetryingControlPacketSenderTest.kt:11:class RetryingControlPacketSenderTest {
+app/src/test/kotlin/com/bitchat/android/mesh/BluetoothConnectionManagerTest.kt:15:class BluetoothConnectionManagerTest {
+app/src/test/kotlin/com/bitchat/android/hotspot/HotspotStartupPolicyTest.kt:8:class HotspotStartupPolicyTest {
+app/src/test/kotlin/com/bitchat/android/hotspot/HotspotPermissionsTest.kt:7:class HotspotPermissionsTest {
+app/src/test/kotlin/com/bitchat/android/service/TransportBridgeServiceTest.kt:21:class TransportBridgeServiceTest {
+app/src/test/kotlin/com/bitchat/android/service/PeerAvailabilityNotifierTest.kt:18:class PeerAvailabilityTrackerTest {
+app/src/test/kotlin/com/bitchat/android/service/PeerAvailabilityNotifierTest.kt:124:class PeerAvailabilityNotifierTest {
+app/src/test/kotlin/com/bitchat/android/onboarding/SystemStateManagerContractTest.kt:20:class SystemStateManagerContractTest {
+app/src/test/kotlin/com/bitchat/android/onboarding/OptionalPermissionRequestTest.kt:18:class OptionalPermissionRequestTest {
+app/src/test/java/com/bitchat/android/favorites/FavoriteRelationshipTest.kt:8:class FavoriteRelationshipTest {
+app/src/test/java/com/bitchat/android/ui/CommandProcessorTest.kt:26:class CommandProcessorTest() {
+app/src/test/java/com/bitchat/android/ui/CashuTokenDecoderTest.kt:10:class CashuTokenDecoderTest {
+app/src/test/java/com/bitchat/android/ui/MessageGroupingTest.kt:16:class MessageGroupingTest {
+app/src/test/java/com/bitchat/android/ui/ConversationSecurityStateTest.kt:6:class ConversationSecurityStateTest {
+app/src/test/java/com/bitchat/android/ui/GeohashPresenceGroupingTest.kt:8:class GeohashPresenceGroupingTest {
+app/src/test/java/com/bitchat/android/ui/LocationChannelsSheetTest.kt:10:class LocationChannelsSheetTest {
+app/src/test/java/com/bitchat/android/ui/MessageArrivalTrackerTest.kt:15:class MessageArrivalTrackerTest {
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:35:class ChatUIUtilsTest {
+app/src/test/java/com/bitchat/android/ui/MessageInteractionUtilsTest.kt:11:class MessageInteractionUtilsTest {
+app/src/test/java/com/bitchat/android/ui/MentionSuggestionsTest.kt:8:class MentionSuggestionsTest {
+app/src/test/java/com/bitchat/android/nostr/NostrLiveSubscriptionPrivacyTest.kt:6:class NostrLiveSubscriptionPrivacyTest {
+app/src/test/java/com/bitchat/android/mesh/BLEPacketPaddingPolicyTest.kt:14:class BLEPacketPaddingPolicyTest {
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:18:class FragmentManagerTest {
+app/src/test/java/com/bitchat/android/mesh/FragmentingPacketSenderTest.kt:22:class FragmentingPacketSenderTest {
+app/src/test/java/com/bitchat/android/crypto/EncryptionServiceTest.kt:15:class EncryptionServiceTest {
+app/src/test/java/com/bitchat/android/protocol/DecompressionResourcePoolTest.kt:12:class DecompressionResourcePoolTest {
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:17:class BinaryProtocolTest {
+app/src/test/java/com/bitchat/android/geohash/LiveLocationAccessPolicyTest.kt:8:class LiveLocationAccessPolicyTest {
+app/src/test/java/com/bitchat/android/geohash/GeohashNostrPrivacyPolicyTest.kt:6:class GeohashNostrPrivacyPolicyTest {
+app/src/debug/java/com/bitchat/android/testhook/TestHookReceiver.kt:22:class TestHookReceiver : BroadcastReceiver() {
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:40:object TestHookDriver {
+app/src/main/java/org/torproject/arti/ArtiNative.kt:17:object ArtiNative {
+app/src/main/java/com/bitchat/android/sync/PacketIdUtil.kt:12:object PacketIdUtil {
+app/src/main/java/com/bitchat/android/sync/GossipSyncManager.kt:17:class GossipSyncManager(
+app/src/main/java/com/bitchat/android/sync/GCSFilter.kt:20:object GCSFilter {
+app/src/main/java/com/bitchat/android/sync/SyncDefaults.kt:3:object SyncDefaults {
+app/src/main/java/com/bitchat/android/favorites/FavoriteControlMessage.kt:5:data class FavoriteControlMessage(
+app/src/main/java/com/bitchat/android/favorites/FavoritesPersistenceService.kt:15:data class FavoriteRelationship(
+app/src/main/java/com/bitchat/android/favorites/FavoritesPersistenceService.kt:70:interface FavoritesChangeListener {
+app/src/main/java/com/bitchat/android/favorites/FavoritesPersistenceService.kt:79:class FavoritesPersistenceService private constructor(private val context: Context) {
+app/src/main/java/com/bitchat/android/services/ConversationAliasResolver.kt:5:object ConversationAliasResolver {
+app/src/main/java/com/bitchat/android/services/AppStateStore.kt:14:object AppStateStore {
+app/src/main/java/com/bitchat/android/services/ConversationRepository.kt:38:class ConversationRepository internal constructor(
+app/src/main/java/com/bitchat/android/services/ConversationRepository.kt:340:sealed interface ConversationStoreState {
+app/src/main/java/com/bitchat/android/services/SeenMessageStore.kt:18:class SeenMessageStore private constructor(private val context: Context) {
+app/src/main/java/com/bitchat/android/services/VerificationService.kt:17:object VerificationService {
+app/src/main/java/com/bitchat/android/services/ContactDirectory.kt:11:object ContactDirectory {
+app/src/main/java/com/bitchat/android/services/MessageRouter.kt:22:class MessageRouter private constructor(
+app/src/main/java/com/bitchat/android/services/ContactIdentityResolver.kt:8:object ContactIdentityResolver {
+app/src/main/java/com/bitchat/android/services/meshgraph/MeshGraphService.kt:12:class MeshGraphService private constructor() {
+app/src/main/java/com/bitchat/android/services/meshgraph/GossipTLV.kt:9:object GossipTLV {
+app/src/main/java/com/bitchat/android/services/meshgraph/RoutePlanner.kt:10:object RoutePlanner {
+app/src/main/java/com/bitchat/android/services/NicknameProvider.kt:10:object NicknameProvider {
+app/src/main/java/com/bitchat/android/ui/MediaSendingManager.kt:22:data class LegacyPrivateMediaConsentRequest(
+app/src/main/java/com/bitchat/android/ui/MediaSendingManager.kt:33:class MediaSendingManager(
+app/src/main/java/com/bitchat/android/ui/MessageManager.kt:12:class MessageManager(private val state: ChatState) {
+app/src/main/java/com/bitchat/android/ui/LinkPreviewPill.kt:136:object URLDetector {
+app/src/main/java/com/bitchat/android/ui/GeohashPeopleList.kt:29:data class GeoPerson(
+app/src/main/java/com/bitchat/android/ui/GeohashPickerActivity.kt:46:class GeohashPickerActivity : OrientationAwareActivity() {
+app/src/main/java/com/bitchat/android/ui/GeohashViewModel.kt:31:class GeohashViewModel(
+app/src/main/java/com/bitchat/android/ui/ApkDownloadViewModel.kt:25:sealed class ApkPreparationStatus {
+app/src/main/java/com/bitchat/android/ui/ApkDownloadViewModel.kt:44:data class ApkUiState(
+app/src/main/java/com/bitchat/android/ui/ApkDownloadViewModel.kt:54:sealed class ApkUiEvent {
+app/src/main/java/com/bitchat/android/ui/ApkDownloadViewModel.kt:72:sealed class ApkUiEffect {
+app/src/main/java/com/bitchat/android/ui/ApkDownloadViewModel.kt:82:class ApkDownloadViewModel(application: Application) : AndroidViewModel(application) {
+app/src/main/java/com/bitchat/android/ui/AboutSections.kt:84:enum class AboutTab {
+app/src/main/java/com/bitchat/android/ui/NotificationManager.kt:39:class NotificationManager(
+app/src/main/java/com/bitchat/android/ui/debug/DebugPreferenceManager.kt:10:object DebugPreferenceManager {
+app/src/main/java/com/bitchat/android/ui/debug/DebugSettingsManager.kt:16:class DebugSettingsManager private constructor() {
+app/src/main/java/com/bitchat/android/ui/debug/DebugSettingsManager.kt:636:sealed class DebugMessage(val content: String, val timestamp: Date = Date()) {
+app/src/main/java/com/bitchat/android/ui/debug/DebugSettingsManager.kt:646:data class DebugScanResult(
+app/src/main/java/com/bitchat/android/ui/debug/DebugSettingsManager.kt:657:data class ConnectedDevice(
+app/src/main/java/com/bitchat/android/ui/debug/DebugSettingsManager.kt:666:enum class ConnectionType {
+app/src/main/java/com/bitchat/android/ui/debug/DebugSettingsManager.kt:674:data class PacketRelayStats(
+app/src/main/java/com/bitchat/android/ui/VerificationHandler.kt:27:class VerificationHandler(
+app/src/main/java/com/bitchat/android/ui/DataManager.kt:13:class DataManager(private val context: Context) {
+app/src/main/java/com/bitchat/android/ui/NotificationTextUtils.kt:9:object NotificationTextUtils {
+app/src/main/java/com/bitchat/android/ui/PrivateChatManager.kt:18:interface NoiseSessionDelegate {
+app/src/main/java/com/bitchat/android/ui/PrivateChatManager.kt:24:enum class PrivateMessageOrigin {
+app/src/main/java/com/bitchat/android/ui/PrivateChatManager.kt:32:class PrivateChatManager(
+app/src/main/java/com/bitchat/android/ui/LanguagePreferenceManager.kt:11:data class AppLanguage(
+app/src/main/java/com/bitchat/android/ui/LanguagePreferenceManager.kt:16:object LanguagePreferenceManager {
+app/src/main/java/com/bitchat/android/ui/MeshDelegateHandler.kt:16:class MeshDelegateHandler(
+app/src/main/java/com/bitchat/android/ui/MessageGrouping.kt:16:object MessageGrouping {
+app/src/main/java/com/bitchat/android/ui/theme/ThemePreference.kt:10:enum class ThemePreference {
+app/src/main/java/com/bitchat/android/ui/theme/ThemePreference.kt:24:object ThemePreferenceManager {
+app/src/main/java/com/bitchat/android/ui/theme/PeerColors.kt:21:data class PeerColorStyle(
+app/src/main/java/com/bitchat/android/ui/theme/BitchatPalette.kt:15:data class BitchatPalette(
+app/src/main/java/com/bitchat/android/ui/theme/BitchatPalette.kt:81:object BitchatMotion {
+app/src/main/java/com/bitchat/android/ui/ChannelManager.kt:15:class ChannelManager(
+app/src/main/java/com/bitchat/android/ui/ChatViewModelUtils.kt:12:object ChatViewModelUtils {
+app/src/main/java/com/bitchat/android/ui/ChatViewModel.kt:53:class ChatViewModel(
+app/src/main/java/com/bitchat/android/ui/CommandProcessor.kt:13:class CommandProcessor(
+app/src/main/java/com/bitchat/android/ui/ChatState.kt:21:data class CommandSuggestion(
+app/src/main/java/com/bitchat/android/ui/ChatState.kt:31:class ChatState(
+app/src/main/java/com/bitchat/android/ui/globe/GlobeView.kt:45:data class GlobeColors(
+app/src/main/java/com/bitchat/android/ui/globe/LandData.kt:10:object LandData {
+app/src/main/java/com/bitchat/android/ui/globe/GlobeState.kt:23:class GlobeState(
+app/src/main/java/com/bitchat/android/ui/globe/GlobeMath.kt:11:object GlobeMath {
+app/src/main/java/com/bitchat/android/ui/events/FileShareDispatcher.kt:7:object FileShareDispatcher {
+app/src/main/java/com/bitchat/android/ui/MessageSpecialParser.kt:9:object MessageSpecialParser {
+app/src/main/java/com/bitchat/android/ui/InputComponents.kt:97:class SlashCommandVisualTransformation(
+app/src/main/java/com/bitchat/android/ui/InputComponents.kt:128:class MentionVisualTransformation(
+app/src/main/java/com/bitchat/android/ui/InputComponents.kt:186:class CombinedVisualTransformation(private val transformations: List<VisualTransformation>) : VisualTransformation {
+app/src/main/java/com/bitchat/android/ui/CashuTokenDecoder.kt:16:object CashuTokenDecoder {
+app/src/main/java/com/bitchat/android/MainActivity.kt:52:class MainActivity : OrientationAwareActivity() {
+app/src/main/java/com/bitchat/android/nostr/RelayDirectory.kt:26:object RelayDirectory {
+app/src/main/java/com/bitchat/android/nostr/NostrBackgroundRuntime.kt:29:object NostrBackgroundRuntime {
+app/src/main/java/com/bitchat/android/nostr/PoWPreferenceManager.kt:12:object PoWPreferenceManager {
+app/src/main/java/com/bitchat/android/nostr/NostrFilter.kt:11:data class NostrFilter(
+app/src/main/java/com/bitchat/android/nostr/NostrTransport.kt:17:class NostrTransport(
+app/src/main/java/com/bitchat/android/nostr/Bech32.kt:7:object Bech32 {
+app/src/main/java/com/bitchat/android/nostr/NostrEvent.kt:12:data class NostrEvent(
+app/src/main/java/com/bitchat/android/nostr/NostrEvent.kt:210:object NostrKind {
+app/src/main/java/com/bitchat/android/nostr/NostrProtocol.kt:13:object NostrProtocol {
+app/src/main/java/com/bitchat/android/nostr/NostrEventDeduplicator.kt:20:class NostrEventDeduplicator(
+app/src/main/java/com/bitchat/android/nostr/NostrEventDeduplicator.kt:247:data class DeduplicationStats(
+app/src/main/java/com/bitchat/android/nostr/NostrCrypto.kt:23:object NostrCrypto {
+app/src/main/java/com/bitchat/android/nostr/NostrClient.kt:14:class NostrClient private constructor(private val context: Context) {
+app/src/main/java/com/bitchat/android/nostr/LocationNotesInitializer.kt:10:object LocationNotesInitializer {
+app/src/main/java/com/bitchat/android/nostr/NostrSubscriptionManager.kt:15:class NostrSubscriptionManager(
+app/src/main/java/com/bitchat/android/nostr/NostrIdentity.kt:15:data class NostrIdentity(
+app/src/main/java/com/bitchat/android/nostr/NostrIdentity.kt:98:object NostrIdentityBridge {
+app/src/main/java/com/bitchat/android/nostr/NostrEmbeddedBitChat.kt:16:object NostrEmbeddedBitChat {
+app/src/main/java/com/bitchat/android/nostr/NostrRequest.kt:10:sealed class NostrRequest {
+app/src/main/java/com/bitchat/android/nostr/NostrRequest.kt:86:sealed class NostrResponse {
+app/src/main/java/com/bitchat/android/nostr/NostrDirectMessageHandler.kt:26:class NostrDirectMessageHandler(
+app/src/main/java/com/bitchat/android/nostr/GeohashAliasRegistry.kt:12:object GeohashAliasRegistry {
+app/src/main/java/com/bitchat/android/nostr/GeohashRepository.kt:14:class GeohashRepository(
+app/src/main/java/com/bitchat/android/nostr/NostrProofOfWork.kt:17:object NostrProofOfWork {
+app/src/main/java/com/bitchat/android/nostr/GeohashConversationRegistry.kt:13:object GeohashConversationRegistry {
+app/src/main/java/com/bitchat/android/nostr/NearbyNotesController.kt:18:class NearbyNotesController internal constructor(
+app/src/main/java/com/bitchat/android/nostr/NostrTestManager.kt:11:class NostrTestManager(private val context: Context) {
+app/src/main/java/com/bitchat/android/nostr/LocationNotesManager.kt:17:class LocationNotesManager private constructor() {
+app/src/main/java/com/bitchat/android/nostr/GeohashMessageHandler.kt:16:class GeohashMessageHandler(
+app/src/main/java/com/bitchat/android/nostr/NostrRelayManager.kt:24:class NostrRelayManager private constructor() {
+app/src/main/java/com/bitchat/android/model/IdentityAnnouncement.kt:11:data class IdentityAnnouncement(
+app/src/main/java/com/bitchat/android/model/NoiseEncrypted.kt:20:enum class NoisePayloadType(val value: UByte) {
+app/src/main/java/com/bitchat/android/model/NoiseEncrypted.kt:52:data class NoisePayload(
+app/src/main/java/com/bitchat/android/model/NoiseEncrypted.kt:114:data class PrivateMessagePacket(
+app/src/main/java/com/bitchat/android/model/NoiseEncrypted.kt:214:data class ReadReceipt(
+app/src/main/java/com/bitchat/android/model/BitchatFilePacket.kt:21:data class BitchatFilePacket(
+app/src/main/java/com/bitchat/android/model/FileSharingManager.kt:12:object FileSharingManager {
+app/src/main/java/com/bitchat/android/model/RoutedPacket.kt:9:data class RoutedPacket(
+app/src/main/java/com/bitchat/android/model/FragmentPayload.kt:20:data class FragmentPayload(
+app/src/main/java/com/bitchat/android/model/BitchatMessage.kt:11:enum class BitchatMessageType : Parcelable {
+app/src/main/java/com/bitchat/android/model/BitchatMessage.kt:21:sealed class DeliveryStatus : Parcelable {
+app/src/main/java/com/bitchat/android/model/BitchatMessage.kt:56:data class BitchatMessage(
+app/src/main/java/com/bitchat/android/model/RequestSyncPacket.kt:12:data class RequestSyncPacket(
+app/src/main/java/com/bitchat/android/model/PeerCapabilities.kt:15:data class PeerCapabilities(val rawValue: Long) : Parcelable {
+app/src/main/java/com/bitchat/android/model/PeerCapabilities.kt:54:class UnknownAnnouncementTLV(
+app/src/main/java/com/bitchat/android/model/AuthenticatedPeerState.kt:12:data class AuthenticatedPeerState(
+app/src/main/java/com/bitchat/android/features/media/ImageUtils.kt:13:object ImageUtils {
+app/src/main/java/com/bitchat/android/features/file/FileUtils.kt:16:object FileUtils {
+app/src/main/java/com/bitchat/android/features/voice/VoiceRecorder.kt:21:class VoiceRecorder(private val context: Context) {
+app/src/main/java/com/bitchat/android/features/voice/Waveform.kt:19:object VoiceWaveformCache {
+app/src/main/java/com/bitchat/android/features/voice/Waveform.kt:48:object AudioWaveformExtractor {
+app/src/main/java/com/bitchat/android/MainViewModel.kt:12:class MainViewModel : ViewModel() {
+app/src/main/java/com/bitchat/android/utils/DeviceUtils.kt:10:object DeviceUtils {
+app/src/main/java/com/bitchat/android/BitchatApplication.kt:11:class BitchatApplication : Application() {
+app/src/main/java/com/bitchat/android/net/TorMode.kt:3:enum class TorMode {
+app/src/main/java/com/bitchat/android/net/TorPreferenceManager.kt:7:object TorPreferenceManager {
+app/src/main/java/com/bitchat/android/net/OkHttpProvider.kt:12:object OkHttpProvider {
+app/src/main/java/com/bitchat/android/net/ArtiTorManager.kt:36:class ArtiTorManager private constructor() {
+app/src/main/java/com/bitchat/android/identity/SecureIdentityStateManager.kt:24:class SecureIdentityStateManager {
+app/src/main/java/com/bitchat/android/wifi-aware/WifiAwareController.kt:20:object WifiAwareController {
+app/src/main/java/com/bitchat/android/wifi-aware/SyncedSocket.kt:15:class SyncedSocket(
+app/src/main/java/com/bitchat/android/wifi-aware/WifiAwareConnectionTracker.kt:14:class WifiAwareConnectionTracker(
+app/src/main/java/com/bitchat/android/wifi-aware/WifiAwareMeshService.kt:64:class WifiAwareMeshService(private val context: Context) : MeshService, TransportBridgeService.TransportLayer {
+app/src/main/java/com/bitchat/android/wifi-aware/WifiAwareSupport.kt:14:object WifiAwareSupport {
+app/src/main/java/com/bitchat/android/util/ByteArrayWrapper.kt:11:data class ByteArrayWrapper(val bytes: ByteArray) {
+app/src/main/java/com/bitchat/android/util/AppConstants.kt:8:object AppConstants {
+app/src/main/java/com/bitchat/android/util/BinaryEncodingUtils.kt:37:class BinaryDataBuilder {
+app/src/main/java/com/bitchat/android/util/BinaryEncodingUtils.kt:122:class BinaryDataReader(private val data: ByteArray) {
+app/src/main/java/com/bitchat/android/util/BinaryEncodingUtils.kt:233:interface BinaryEncodable {
+app/src/main/java/com/bitchat/android/util/BinaryEncodingUtils.kt:239:enum class BinaryMessageType(val value: UByte) {
+app/src/main/java/com/bitchat/android/util/WorkManagerApkDownloader.kt:20:class WorkManagerApkDownloader(context: Context) : ApkDownloader {
+app/src/main/java/com/bitchat/android/util/ApkDownloader.kt:10:interface ApkDownloader {
+app/src/main/java/com/bitchat/android/util/ApkDownloadWorker.kt:25:class ApkDownloadWorker(
+app/src/main/java/com/bitchat/android/util/GitHubReleaseClient.kt:19:object GitHubReleaseClient {
+app/src/main/java/com/bitchat/android/util/UniversalApkManager.kt:29:class UniversalApkManager(private val context: Context) {
+app/src/main/java/com/bitchat/android/util/DistributionInfoProvider.kt:17:object DistributionInfoProvider {
+app/src/main/java/com/bitchat/android/util/DistributionInfoProvider.kt:211:enum class ShareableApkVariant {
+app/src/main/java/com/bitchat/android/noise/NoiseChannelEncryption.kt:18:class NoiseChannelEncryption {
+app/src/main/java/com/bitchat/android/noise/southernstorm/protocol/Curve448DHState.java:32:class Curve448DHState implements DHState {
+app/src/main/java/com/bitchat/android/noise/southernstorm/protocol/SymmetricState.java:37:class SymmetricState implements Destroyable {
+app/src/main/java/com/bitchat/android/noise/southernstorm/protocol/ChaChaPolyCipherState.java:36:class ChaChaPolyCipherState implements CipherState {
+app/src/main/java/com/bitchat/android/noise/southernstorm/protocol/AESGCMFallbackCipherState.java:37:class AESGCMFallbackCipherState implements CipherState {
+app/src/main/java/com/bitchat/android/noise/southernstorm/protocol/Pattern.java:28:class Pattern {
+app/src/main/java/com/bitchat/android/noise/southernstorm/protocol/AESGCMOnCtrCipherState.java:47:class AESGCMOnCtrCipherState implements CipherState {
+app/src/main/java/com/bitchat/android/noise/southernstorm/protocol/Curve25519DHState.java:32:class Curve25519DHState implements DHState {
+app/src/main/java/com/bitchat/android/noise/NoiseSession.kt:12:class NoiseSession(
+app/src/main/java/com/bitchat/android/noise/NoiseSession.kt:675:sealed class SessionError(message: String, cause: Throwable? = null) : Exception(message, cause) {
+app/src/main/java/com/bitchat/android/noise/NoisePeerIdentity.kt:12:object NoisePeerIdentity {
+app/src/main/java/com/bitchat/android/noise/NoiseEncryptionService.kt:21:class NoiseEncryptionService(private val context: Context) {
+app/src/main/java/com/bitchat/android/noise/NoiseEncryptionService.kt:573:sealed class NoiseEncryptionError(message: String) : Exception(message) {
+app/src/main/java/com/bitchat/android/noise/NoiseSessionManager.kt:8:data class NoiseHandshakeProcessingResult(
+app/src/main/java/com/bitchat/android/noise/NoiseSessionManager.kt:18:class AuthenticatedNoiseSession(
+app/src/main/java/com/bitchat/android/noise/NoiseSessionManager.kt:39:data class NoiseDecryptionResult(
+app/src/main/java/com/bitchat/android/noise/NoiseSessionManager.kt:47:class NoiseSessionManager(
+app/src/main/java/com/bitchat/android/noise/NoiseSessionManager.kt:484:sealed class NoiseSessionError(message: String, cause: Throwable? = null) : Exception(message, cause) {
+app/src/main/java/com/bitchat/android/mesh/MeshTransport.kt:9:interface MeshTransport {
+app/src/main/java/com/bitchat/android/mesh/PacketProcessor.kt:18:class PacketProcessor(private val myPeerID: String) {
+app/src/main/java/com/bitchat/android/mesh/PacketProcessor.kt:282:interface PacketProcessorDelegate {
+app/src/main/java/com/bitchat/android/mesh/BluetoothPermissionManager.kt:11:class BluetoothPermissionManager(private val context: Context) {
+app/src/main/java/com/bitchat/android/mesh/PowerManager.kt:34:class PowerManager private constructor(context: Context) : LifecycleEventObserver {
+app/src/main/java/com/bitchat/android/mesh/PrivateMediaTransfer.kt:11:enum class PrivateMediaWireMode {
+app/src/main/java/com/bitchat/android/mesh/PrivateMediaTransfer.kt:16:class PreparedPrivateMediaTransfer internal constructor(
+app/src/main/java/com/bitchat/android/mesh/PrivateMediaTransfer.kt:30:sealed interface PrivateMediaPreparation {
+app/src/main/java/com/bitchat/android/mesh/TransferProgressManager.kt:10:data class TransferProgressEvent(
+app/src/main/java/com/bitchat/android/mesh/TransferProgressManager.kt:18:object TransferProgressManager {
+app/src/main/java/com/bitchat/android/mesh/MessageHandler.kt:16:sealed class AnnounceHandlingResult {
+app/src/main/java/com/bitchat/android/mesh/MessageHandler.kt:25:class MessageHandler(private val myPeerID: String, private val appContext: android.content.Context) {
+app/src/main/java/com/bitchat/android/mesh/MessageHandler.kt:648:interface MessageHandlerDelegate {
+app/src/main/java/com/bitchat/android/mesh/UnifiedMeshService.kt:28:class UnifiedMeshService(
+app/src/main/java/com/bitchat/android/mesh/MeshCore.kt:32:class MeshCore(
+app/src/main/java/com/bitchat/android/mesh/BluetoothGattClientManager.kt:24:class BluetoothGattClientManager(
+app/src/main/java/com/bitchat/android/mesh/StoreForwardManager.kt:15:class StoreForwardManager {
+app/src/main/java/com/bitchat/android/mesh/StoreForwardManager.kt:312:interface StoreForwardManagerDelegate {
+app/src/main/java/com/bitchat/android/mesh/PacketRelayManager.kt:17:class PacketRelayManager(private val myPeerID: String) {
+app/src/main/java/com/bitchat/android/mesh/PacketRelayManager.kt:197:interface PacketRelayManagerDelegate {
+app/src/main/java/com/bitchat/android/mesh/SecurityManager.kt:20:class SecurityManager(private val encryptionService: EncryptionService, private val myPeerID: String) {
+app/src/main/java/com/bitchat/android/mesh/SecurityManager.kt:472:interface SecurityManagerDelegate {
+app/src/main/java/com/bitchat/android/mesh/BluetoothMeshService.kt:40:class BluetoothMeshService(private val context: Context) : TransportBridgeService.TransportLayer {
+app/src/main/java/com/bitchat/android/mesh/BluetoothMeshService.kt:1609:interface BluetoothMeshDelegate : MeshDelegate {
+app/src/main/java/com/bitchat/android/mesh/BluetoothPacketBroadcaster.kt:42:class BluetoothPacketBroadcaster(
+app/src/main/java/com/bitchat/android/mesh/FragmentingPacketSender.kt:20:class FragmentingPacketSender(
+app/src/main/java/com/bitchat/android/mesh/FragmentManager.kt:20:class FragmentManager {
+app/src/main/java/com/bitchat/android/mesh/FragmentManager.kt:390:interface FragmentManagerDelegate {
+app/src/main/java/com/bitchat/android/mesh/PeerManager.kt:14:data class PeerInfo(
+app/src/main/java/com/bitchat/android/mesh/PeerManager.kt:83:class PeerManager {
+app/src/main/java/com/bitchat/android/mesh/PeerManager.kt:657:interface PeerManagerDelegate {
+app/src/main/java/com/bitchat/android/mesh/MeshService.kt:8:interface MeshService {
+app/src/main/java/com/bitchat/android/mesh/BluetoothConnectionManager.kt:17:class BluetoothConnectionManager(
+app/src/main/java/com/bitchat/android/mesh/BluetoothConnectionManager.kt:478:interface BluetoothConnectionManagerDelegate {
+app/src/main/java/com/bitchat/android/mesh/BluetoothConnectionTracker.kt:17:class BluetoothConnectionTracker(
+app/src/main/java/com/bitchat/android/mesh/AnnouncementIdentityValidator.kt:10:object AnnouncementIdentityValidator {
+app/src/main/java/com/bitchat/android/mesh/BLEPacketPaddingPolicy.kt:11:object BLEPacketPaddingPolicy {
+app/src/main/java/com/bitchat/android/mesh/MeshPacketUtils.kt:6:object MeshPacketUtils {
+app/src/main/java/com/bitchat/android/mesh/PeerFingerprintManager.kt:22:class PeerFingerprintManager private constructor() {
+app/src/main/java/com/bitchat/android/mesh/MeshDelegate.kt:8:interface MeshDelegate {
+app/src/main/java/com/bitchat/android/mesh/BluetoothGattServerManager.kt:22:class BluetoothGattServerManager(
+app/src/main/java/com/bitchat/android/protocol/MessagePadding.kt:9:object MessagePadding {
+app/src/main/java/com/bitchat/android/protocol/BinaryProtocol.kt:12:enum class MessageType(val value: UByte) {
+app/src/main/java/com/bitchat/android/protocol/BinaryProtocol.kt:32:object SpecialRecipients {
+app/src/main/java/com/bitchat/android/protocol/BinaryProtocol.kt:54:data class BitchatPacket(
+app/src/main/java/com/bitchat/android/protocol/BinaryProtocol.kt:180:object BinaryProtocol {
+app/src/main/java/com/bitchat/android/protocol/CompressionUtil.kt:13:object CompressionUtil {
+app/src/main/java/com/bitchat/android/hotspot/QrCodeGenerator.kt:14:object QrCodeGenerator {
+app/src/main/java/com/bitchat/android/hotspot/HotspotManager.kt:26:class HotspotManager(private val context: Context) {
+app/src/main/java/com/bitchat/android/hotspot/HotspotActivity.kt:48:class HotspotActivity : ComponentActivity() {
+app/src/main/java/com/bitchat/android/hotspot/ApkWebServer.kt:13:class ApkWebServer(
+app/src/main/java/com/bitchat/android/hotspot/HotspotViewModel.kt:17:class HotspotViewModel(application: Application) : AndroidViewModel(application) {
+app/src/main/java/com/bitchat/android/geohash/GeocoderFactory.kt:9:object GeocoderFactory {
+app/src/main/java/com/bitchat/android/geohash/LocationChannelManager.kt:27:class LocationChannelManager private constructor(private val context: Context) {
+app/src/main/java/com/bitchat/android/geohash/Geohash.kt:9:object Geohash {
+app/src/main/java/com/bitchat/android/geohash/LocationChannel.kt:7:enum class GeohashChannelLevel(val precision: Int, val displayName: String) {
+app/src/main/java/com/bitchat/android/geohash/LocationChannel.kt:24:data class GeohashChannel(
+app/src/main/java/com/bitchat/android/geohash/LocationChannel.kt:37:sealed class ChannelID {
+app/src/main/java/com/bitchat/android/geohash/AndroidGeocoderProvider.kt:13:class AndroidGeocoderProvider(context: Context) : GeocoderProvider {
+app/src/main/java/com/bitchat/android/geohash/GeocoderProvider.kt:8:interface GeocoderProvider {
+app/src/main/java/com/bitchat/android/geohash/GeohashBookmarksStore.kt:23:class GeohashBookmarksStore private constructor(private val context: Context) {
+app/src/main/java/com/bitchat/android/geohash/OpenStreetMapGeocoderProvider.kt:16:class OpenStreetMapGeocoderProvider : GeocoderProvider {
+app/src/main/java/com/bitchat/android/service/MeshForegroundService.kt:28:class MeshForegroundService : Service() {
+app/src/main/java/com/bitchat/android/service/TransportBridgeService.kt:20:object TransportBridgeService {
+app/src/main/java/com/bitchat/android/service/MeshServiceHolder.kt:14:object MeshServiceHolder {
+app/src/main/java/com/bitchat/android/service/BootCompletedReceiver.kt:7:class BootCompletedReceiver : BroadcastReceiver() {
+app/src/main/java/com/bitchat/android/service/AppShutdownCoordinator.kt:28:object AppShutdownCoordinator {
+app/src/main/java/com/bitchat/android/service/ConversationNotificationReceiver.kt:21:class ConversationNotificationReceiver : BroadcastReceiver() {
+app/src/main/java/com/bitchat/android/service/MeshServicePreferences.kt:6:object MeshServicePreferences {
+app/src/main/java/com/bitchat/android/onboarding/PermissionManager.kt:16:class PermissionManager(private val context: Context) {
+app/src/main/java/com/bitchat/android/onboarding/PermissionManager.kt:380:data class PermissionCategory(
+app/src/main/java/com/bitchat/android/onboarding/PermissionManager.kt:388:enum class PermissionType(val nameValue: String) {
+app/src/main/java/com/bitchat/android/onboarding/OnboardingCoordinator.kt:18:class OnboardingCoordinator(
+app/src/main/java/com/bitchat/android/onboarding/BluetoothStatusManager.kt:19:class BluetoothStatusManager(
+app/src/main/java/com/bitchat/android/onboarding/BluetoothStatusManager.kt:267:enum class BluetoothStatus {
+app/src/main/java/com/bitchat/android/onboarding/OnboardingState.kt:3:enum class OnboardingState {
+app/src/main/java/com/bitchat/android/onboarding/BatteryOptimizationManager.kt:19:class BatteryOptimizationManager(
+app/src/main/java/com/bitchat/android/onboarding/BatteryOptimizationManager.kt:173:enum class BatteryOptimizationStatus {
+app/src/main/java/com/bitchat/android/onboarding/LocationStatusManager.kt:20:class LocationStatusManager(
+app/src/main/java/com/bitchat/android/onboarding/LocationStatusManager.kt:243:enum class LocationStatus {
+app/src/main/java/com/bitchat/android/onboarding/BatteryOptimizationPreferenceManager.kt:10:object BatteryOptimizationPreferenceManager {
+app/src/main/java/com/bitchat/android/onboarding/BackgroundLocationPreferenceManager.kt:8:object BackgroundLocationPreferenceManager {
+app/src/main/java/info/guardianproject/arti/ArtiException.kt:9:class ArtiException(message: String, cause: Throwable? = null) : Exception(message, cause)
+app/src/main/java/info/guardianproject/arti/ArtiProxy.kt:27:class ArtiProxy private constructor(
+wear/src/test/java/com/bitchat/watch/ui/WearPeerIdentityStateTest.kt:6:class WearPeerIdentityStateTest {
+wear/src/test/java/com/bitchat/watch/notification/WearNotificationPolicyTest.kt:8:class WearNotificationPolicyTest {
+wear/src/test/java/com/bitchat/watch/WearNavigationStateTest.kt:8:class WearNavigationStateTest {
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:26:object WearTestHookDriver {
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookReceiver.kt:21:class WearTestHookReceiver : BroadcastReceiver() {
+wear/src/main/java/com/bitchat/watch/ui/WearChatState.kt:10:object WearChatState {
+wear/src/main/java/com/bitchat/watch/ui/WearPeerIdentityState.kt:14:enum class FavoriteIndicator {
+wear/src/main/java/com/bitchat/watch/ui/WearPeerIdentityState.kt:20:data class WearPeerIdentitySnapshot(
+wear/src/main/java/com/bitchat/watch/ui/WearPeerIdentityState.kt:44:object WearPeerIdentityState : FavoritesChangeListener {
+wear/src/main/java/com/bitchat/watch/ui/WearHaptics.kt:13:object WearHaptics {
+wear/src/main/java/com/bitchat/watch/ui/NoiseLockIcon.kt:23:enum class NoiseSessionUiState { Idle, Handshaking, Established }
+wear/src/main/java/com/bitchat/watch/ui/VoiceNoteController.kt:29:class VoiceNoteController(
+wear/src/main/java/com/bitchat/watch/ui/theme/Typography.kt:22:object ChatVisualTokens {
+wear/src/main/java/com/bitchat/watch/ui/theme/PeerColors.kt:8:data class PeerColorStyle(
+wear/src/main/java/com/bitchat/watch/ui/theme/BitchatPalette.kt:8:data class BitchatPalette(
+wear/src/main/java/com/bitchat/watch/ui/theme/BitchatPalette.kt:34:object BitchatMotion {
+wear/src/main/java/com/bitchat/watch/MainActivity.kt:57:sealed interface WearScreen {
+wear/src/main/java/com/bitchat/watch/MainActivity.kt:67:class MainActivity : ComponentActivity() {
+wear/src/main/java/com/bitchat/watch/BitchatWatchApplication.kt:8:class BitchatWatchApplication : Application() {
+wear/src/main/java/com/bitchat/watch/notification/WearNotificationPolicy.kt:6:object WearNotificationPolicy {
+wear/src/main/java/com/bitchat/watch/notification/WearNotificationCoordinator.kt:29:class WearNotificationCoordinator private constructor(context: Context) {
+wear/src/main/java/com/bitchat/watch/mesh/WearMeshService.kt:29:class WearMeshService private constructor(private val context: Context) {
+wear/src/main/java/com/bitchat/watch/service/WearMeshForegroundService.kt:37:class WearMeshForegroundService : Service() {
+wear/src/main/java/com/bitchat/android/wifiaware/WifiAwareController.kt:9:object WifiAwareController {
+wear/src/main/java/com/bitchat/android/mesh/BluetoothPermissionManager.kt:19:class BluetoothPermissionManager(private val context: Context) {
+wear/src/main/java/com/bitchat/android/service/MeshServiceHolder.kt:10:object MeshServiceHolder {

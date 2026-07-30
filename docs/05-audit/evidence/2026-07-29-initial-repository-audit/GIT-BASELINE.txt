@@ -1,0 +1,32 @@
+=== MAOBITS OS ANDROID - GIT BASELINE ===
+Generated at: 2026-07-29T17:56:31-06:00
+
+=== PWD ===
+/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android
+
+=== GIT STATUS ===
+En la rama foundation/00-maobits-os-android-baseline
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+	docs/05-audit/evidence/
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+
+=== GIT REMOTES ===
+origin	https://github.com/maobits/bitchat-android.git (fetch)
+origin	https://github.com/maobits/bitchat-android.git (push)
+
+=== CURRENT BRANCH ===
+foundation/00-maobits-os-android-baseline
+
+=== LAST 10 COMMITS ===
+6e679ab (HEAD -> foundation/00-maobits-os-android-baseline) docs(audit): add bilingual initial repository audit
+97d6e8a (origin/main, origin/HEAD, main) Merge pull request #825 from permissionlesstech/codex/network-tab-list-cleanup
+1774414 Merge pull request #819 from spradhan7656/main
+5dd7b2c Restore Gradle verification metadata
+a5dfe9f Polish network conversation rows
+2176160 Merge pull request #823 from permissionlesstech/ui/geohash-globe-picker
+fe93be3 Remove generated Gradle daemon JVM config
+44f62a3 Merge pull request #776 from a1denvalu3/feat/cashu-chips-android
+03de6f3 fix: allow targeting polar geohashes
+b073dc2 Merge pull request #824 from permissionlesstech/codex/fix-peer-verification-status-badge

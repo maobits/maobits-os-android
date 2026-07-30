@@ -1,0 +1,53 @@
+     1	<?xml version="1.0" encoding="utf-8"?>
+     2	<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+     3	    xmlns:tools="http://schemas.android.com/tools">
+     4	
+     5	    <uses-feature android:name="android.hardware.type.watch" />
+     6	    <uses-feature
+     7	        android:name="android.hardware.bluetooth_le"
+     8	        android:required="true" />
+     9	
+    10	    <!-- Bluetooth mesh only. Deliberately NO android.permission.INTERNET and no location. -->
+    11	    <uses-permission
+    12	        android:name="android.permission.BLUETOOTH_SCAN"
+    13	        android:usesPermissionFlags="neverForLocation"
+    14	        tools:targetApi="s" />
+    15	    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    16	    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    17	    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    18	    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+    19	    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    20	    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    21	    <uses-permission android:name="android.permission.VIBRATE" />
+    22	
+    23	    <application
+    24	        android:name=".BitchatWatchApplication"
+    25	        android:allowBackup="false"
+    26	        android:icon="@mipmap/ic_launcher"
+    27	        android:roundIcon="@mipmap/ic_launcher_round"
+    28	        android:label="@string/app_name"
+    29	        android:supportsRtl="true"
+    30	        android:theme="@android:style/Theme.DeviceDefault">
+    31	
+    32	        <meta-data
+    33	            android:name="com.google.android.wearable.standalone"
+    34	            android:value="true" />
+    35	
+    36	        <service
+    37	            android:name=".service.WearMeshForegroundService"
+    38	            android:exported="false"
+    39	            android:foregroundServiceType="connectedDevice" />
+    40	
+    41	        <activity
+    42	            android:name=".MainActivity"
+    43	            android:exported="true"
+    44	            android:launchMode="singleTop"
+    45	            android:taskAffinity=""
+    46	            android:theme="@style/BitchatLaunchTheme">
+    47	            <intent-filter>
+    48	                <action android:name="android.intent.action.MAIN" />
+    49	                <category android:name="android.intent.category.LAUNCHER" />
+    50	            </intent-filter>
+    51	        </activity>
+    52	    </application>
+    53	</manifest>

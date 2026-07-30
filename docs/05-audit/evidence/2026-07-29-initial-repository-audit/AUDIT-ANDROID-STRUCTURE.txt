@@ -1,0 +1,9 @@
+./app/build.gradle.kts
+./app/src/debug/AndroidManifest.xml
+./app/src/main/AndroidManifest.xml
+./build.gradle.kts
+./gradle.properties
+./settings.gradle.kts
+./wear/build.gradle.kts
+./wear/src/debug/AndroidManifest.xml
+./wear/src/main/AndroidManifest.xml

@@ -1,0 +1,171 @@
+     1	<?xml version="1.0" encoding="utf-8"?>
+     2	<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+     3	    xmlns:tools="http://schemas.android.com/tools">
+     4	
+     5	    <!-- Internet permissions for Nostr relay connections -->
+     6	    <uses-permission android:name="android.permission.INTERNET" />
+     7	    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+     8	    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+     9	    
+    10	    <!-- Bluetooth permissions -->
+    11	    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+    12	    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+    13	    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    14	    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    15	    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    16	    
+    17	    <!-- Location permission required for BLE scanning -->
+    18	    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    19	    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    20	    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    21	    
+    22	    <!-- Notification permissions -->
+    23	    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    24	
+    25	    <!-- Wi‑Fi / Wi‑Fi Aware permissions (also used for hotspot APK sharing) -->
+    26	    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    27	    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    28	    <!-- Android 13+ runtime permission for Wi‑Fi operations (including Aware and Wi‑Fi P2P) -->
+    29	    <uses-permission
+    30	        android:name="android.permission.NEARBY_WIFI_DEVICES"
+    31	        android:usesPermissionFlags="neverForLocation" />
+    32	    <!-- Android 17+ gates local network access; Wi‑Fi Aware peers over link-local IPv6 -->
+    33	    <uses-permission android:name="android.permission.ACCESS_LOCAL_NETWORK" />
+    34	    <!-- Keep hotspot alive while sharing the APK -->
+    35	    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    36	
+    37	    <!-- Signature permission for internal UI shutdown broadcasts -->
+    38	    <uses-permission android:name="com.bitchat.android.permission.FORCE_FINISH" />
+    39	    <!-- Foreground service and boot permissions for long-running background mesh -->
+    40	    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    41	    <!-- Connected device foreground service type for BLE operations (API 34+) -->
+    42	    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+    43	    <!-- Data sync foreground service type (required when declaring dataSync) -->
+    44	    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    45	    <!-- Location foreground service type required for BLE scanning in background -->
+    46	    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    47	    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    48	    
+    49	    <!-- Microphone for voice notes -->
+    50	    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    51	    <!-- Camera for QR verification -->
+    52	    <uses-permission android:name="android.permission.CAMERA" />
+    53	
+    54	    <!-- Storage permissions for file sharing -->
+    55	    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    56	    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    57	    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    58	    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    59	
+    60	    <!-- Haptic feedback permission -->
+    61	    <uses-permission android:name="android.permission.VIBRATE" />
+    62	    
+    63	    <!-- Battery optimization permission -->
+    64	    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    65	    
+    66	    <!-- Hardware features -->
+    67	    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />
+    68	    <uses-feature android:name="android.hardware.bluetooth" android:required="true" />
+    69	    <!-- Device support hint for Wi‑Fi Aware (optional) -->
+    70	    <uses-feature android:name="android.hardware.wifi.aware" android:required="false" />
+    71	    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    72	
+    73	    <permission
+    74	        android:name="com.bitchat.android.permission.FORCE_FINISH"
+    75	        android:protectionLevel="signature" />
+    76	
+    77	    <application
+    78	        android:name=".BitchatApplication"
+    79	        android:allowBackup="false"
+    80	        android:dataExtractionRules="@xml/data_extraction_rules"
+    81	        android:fullBackupContent="@xml/backup_rules"
+    82	        android:icon="@mipmap/ic_launcher"
+    83	        android:localeConfig="@xml/locales_config"
+    84	        android:roundIcon="@mipmap/ic_launcher_round"
+    85	        android:label="@string/app_name"
+    86	        android:supportsRtl="true"
+    87	        android:theme="@style/Theme.BitchatAndroid"
+    88	        tools:targetApi="33">
+    89	        <service
+    90	            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+    91	            android:enabled="false"
+    92	            android:exported="false">
+    93	            <meta-data
+    94	                android:name="autoStoreLocales"
+    95	                android:value="true" />
+    96	        </service>
+    97	
+    98	        <!-- FileProvider for sharing temp/cache files with external viewers -->
+    99	        <provider
+   100	            android:name="androidx.core.content.FileProvider"
+   101	            android:authorities="${applicationId}.fileprovider"
+   102	            android:exported="false"
+   103	            android:grantUriPermissions="true">
+   104	            <meta-data
+   105	                android:name="android.support.FILE_PROVIDER_PATHS"
+   106	                android:resource="@xml/file_paths" />
+   107	        </provider>
+   108	        <activity
+   109	            android:name=".ui.GeohashPickerActivity"
+   110	            android:exported="false"
+   111	            android:theme="@style/Theme.BitchatAndroid"
+   112	            android:windowSoftInputMode="adjustResize" />
+   113	        <activity
+   114	            android:name=".MainActivity"
+   115	            android:exported="true"
+   116	            android:label="@string/app_name"
+   117	            android:theme="@style/Theme.BitchatAndroid"
+   118	            android:windowSoftInputMode="adjustResize"
+   119	            android:launchMode="singleTop">
+   120	            <intent-filter>
+   121	                <action android:name="android.intent.action.MAIN" />
+   122	                <category android:name="android.intent.category.LAUNCHER" />
+   123	            </intent-filter>
+   124	            <intent-filter>
+   125	                <action android:name="android.intent.action.VIEW" />
+   126	                <category android:name="android.intent.category.DEFAULT" />
+   127	                <category android:name="android.intent.category.BROWSABLE" />
+   128	                <data android:scheme="bitchat" android:host="verify" />
+   129	            </intent-filter>
+   130	        </activity>
+   131	
+   132	        <!-- Persistent foreground service to run the mesh in background -->
+   133	        <service
+   134	            android:name=".service.MeshForegroundService"
+   135	            android:exported="false"
+   136	            android:foregroundServiceType="connectedDevice|dataSync|location"
+   137	            tools:ignore="DataExtractionRules">
+   138	        </service>
+   139	
+   140	        <receiver
+   141	            android:name=".service.ConversationNotificationReceiver"
+   142	            android:enabled="true"
+   143	            android:exported="false" />
+   144	
+   145	        <!-- Auto-start mesh service after boot if enabled -->
+   146	        <receiver
+   147	            android:name=".service.BootCompletedReceiver"
+   148	            android:enabled="true"
+   149	            android:exported="false">
+   150	            <intent-filter>
+   151	                <action android:name="android.intent.action.BOOT_COMPLETED" />
+   152	                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+   153	            </intent-filter>
+   154	        </receiver>
+   155	
+   156	        <!-- Hotspot Activity for offline APK sharing -->
+   157	        <activity
+   158	            android:name=".hotspot.HotspotActivity"
+   159	            android:exported="false"
+   160	            android:label="Share BitChat"
+   161	            android:theme="@style/Theme.BitchatAndroid"
+   162	            android:launchMode="singleTop" />
+   163	
+   164	        <!-- Declare the foreground service type for WorkManager's foreground
+   165	             service so the APK download worker can run as dataSync work -->
+   166	        <service
+   167	            android:name="androidx.work.impl.foreground.SystemForegroundService"
+   168	            android:foregroundServiceType="dataSync"
+   169	            tools:node="merge" />
+   170	    </application>
+   171	</manifest>
