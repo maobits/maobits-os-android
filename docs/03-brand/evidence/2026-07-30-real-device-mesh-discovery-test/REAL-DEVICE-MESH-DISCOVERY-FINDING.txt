@@ -1,0 +1,25 @@
+=== MAOBITS OS ANDROID - REAL DEVICE MESH DISCOVERY FINDING ===
+
+Date:
+2026-07-30
+
+Finding:
+Two smartphones installed Maobits OS and entered the default channel, but initially did not discover each other.
+
+Root cause:
+One or both devices had very low battery level.
+
+Resolution:
+After resolving the low battery condition, device discovery worked.
+
+Technical interpretation:
+Low battery conditions can restrict BLE scanning, BLE advertising, foreground services, background execution, and nearby-device discovery on Android devices.
+
+Conclusion:
+No code change required for this finding.
+
+Testing rule added:
+Real-device mesh discovery tests must be performed with battery level above 30%, battery saver disabled, Bluetooth enabled, location enabled, and app battery usage unrestricted.
+
+Status:
+Solved.
