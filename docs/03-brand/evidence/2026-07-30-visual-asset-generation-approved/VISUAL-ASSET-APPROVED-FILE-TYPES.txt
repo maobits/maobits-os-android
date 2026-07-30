@@ -1,0 +1,8 @@
+docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-approved-colors.json:           JSON text data
+docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-proposal-approved-1024.png:     PNG image data, 1024 x 1024, 8-bit/color RGBA, non-interlaced
+docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-proposal-approved-128.png:      PNG image data, 128 x 128, 8-bit/color RGBA, non-interlaced
+docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-proposal-approved-256.png:      PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-proposal-approved-512.png:      PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-proposal-approved-original.png: PNG image data, 1254 x 1254, 8-bit/color RGBA, non-interlaced
+docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/README.md:                                      ASCII text
+docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/SHA256SUMS.txt:                                 ASCII text

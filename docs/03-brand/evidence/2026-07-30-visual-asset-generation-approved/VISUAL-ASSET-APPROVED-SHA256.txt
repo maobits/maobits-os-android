@@ -1,0 +1,8 @@
+173376e4304063ec33ef657de601ddca023ca19abe225442cb09fe68c9345bb3  docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-approved-colors.json
+88342dd9d28746b4e9e5f36d0a10c2b5346e836a8a064258d82529eb1b1d67a6  docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-proposal-approved-1024.png
+7accf7c9a40d1da26384fdf1dd2a6d779941860e7dff0045713ea0654be0cff5  docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-proposal-approved-128.png
+c1cd76859a129f0c3719f99f269a58bb6f04eb36769bf6de2f4c98f68a061a1c  docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-proposal-approved-256.png
+68a0bce31630ec8c123325fe1603109d2a8c34c1263f1f33325be4c961311a9a  docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-proposal-approved-512.png
+90406b6abc504809f5febfefd26fe92c98e99b16f5be391eb7b9eeaaf04f65e2  docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/maobits-os-icon-proposal-approved-original.png
+591b67b2a53afac32583e59687e783a73043c97bbe7d2b58e12abf9588c2f16c  docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/README.md
+729822225e12f3c23acd5ba42da583b85a22c95683c81c1a6194448c80e27cb0  docs/03-brand/assets/2026-07-30-maobits-os-icon-proposal-approved/SHA256SUMS.txt
