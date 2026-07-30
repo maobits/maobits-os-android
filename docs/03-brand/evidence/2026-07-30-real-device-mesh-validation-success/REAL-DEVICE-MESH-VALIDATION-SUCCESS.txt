@@ -1,0 +1,37 @@
+=== MAOBITS OS ANDROID - REAL DEVICE MESH VALIDATION SUCCESS ===
+
+Date:
+2026-07-30
+
+Tester:
+Mauricio Chara Hurtado
+
+Scenario:
+Maobits OS Android installed on two real smartphones.
+
+Initial condition:
+Both devices opened the app and entered the default channel, but did not discover each other.
+
+Root cause found:
+Very low battery level.
+
+Resolution:
+After resolving the low battery condition, both smartphones discovered each other and communication worked correctly.
+
+Result:
+Successful real-device mesh smoke test.
+
+Current visible app name:
+Maobits OS
+
+Current internal package:
+com.bitchat.droid
+
+Code change required:
+No.
+
+Operational rule:
+Future real-device mesh tests must use devices with battery level above 30%, battery saver disabled, Bluetooth enabled, location enabled, Nearby Devices allowed, and unrestricted app battery usage.
+
+Status:
+Approved.
