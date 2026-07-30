@@ -1,0 +1,23 @@
+=== MAOBITS OS ANDROID - ICONOGRAPHY DESIGN DECISION ===
+
+Decision:
+Design a proprietary Maobits OS iconography system before replacing Android resources.
+
+Core concept:
+Person → Commitment → Confirmation represented as a trusted human-centered network.
+
+Visual direction:
+- central identity node
+- three connected commitment/confirmation nodes
+- institutional technology aesthetic
+- ethical privacy
+- resilient connectivity
+
+Do not use:
+- external project logos
+- inherited icons without review
+- generic chat bubble as the only symbol
+- aggressive lock/hacker/military aesthetics
+
+Implementation status:
+Design only. No icon files replaced in this phase.

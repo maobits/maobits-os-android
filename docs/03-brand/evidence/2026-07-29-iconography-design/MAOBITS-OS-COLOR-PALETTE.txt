@@ -1,0 +1,22 @@
+=== MAOBITS OS ANDROID - INITIAL COLOR PALETTE ===
+
+Primary deep:
+#1F2F2F
+
+Trust green:
+#2E7D6F
+
+Technology mint:
+#62C6A7
+
+Warm white:
+#F7F7F2
+
+Technical gray:
+#AEB7B3
+
+Confirmation amber:
+#F2B84B
+
+Status:
+Design proposal only. Not applied to Android resources yet.

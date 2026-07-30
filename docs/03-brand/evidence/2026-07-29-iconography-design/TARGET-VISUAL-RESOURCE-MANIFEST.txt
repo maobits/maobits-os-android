@@ -1,0 +1,23 @@
+=== TARGET VISUAL RESOURCE MANIFEST ===
+
+Android app:
+- adaptive icon background
+- adaptive icon foreground
+- launcher icon
+- round launcher icon
+- optional monochrome icon
+- preview/splash resources if applicable
+
+Wear OS:
+- wearable launcher icon
+- wearable round icon
+- small notification-safe icon if required
+
+Design validation:
+- light background
+- dark background
+- circular mask
+- rounded-square mask
+- small size visibility
+- notification visibility
+- accessibility contrast review
