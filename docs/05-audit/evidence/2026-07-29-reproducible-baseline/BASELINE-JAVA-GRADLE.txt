@@ -1,0 +1,58 @@
+=== JAVA ===
+openjdk version "17.0.17" 2025-10-21
+OpenJDK Runtime Environment Temurin-17.0.17+10 (build 17.0.17+10)
+OpenJDK 64-Bit Server VM Temurin-17.0.17+10 (build 17.0.17+10, mixed mode, sharing)
+
+=== JAVAC ===
+javac 17.0.17
+
+=== GRADLE WRAPPER FILES ===
+-rwxrwxr-x 1 maobits maobits 8752 jul 29 17:09 gradlew
+
+gradle/wrapper:
+total 56
+drwxrwxr-x 2 maobits maobits  4096 jul 29 17:09 .
+drwxrwxr-x 3 maobits maobits  4096 jul 29 17:09 ..
+-rw-rw-r-- 1 maobits maobits 43705 jul 29 17:09 gradle-wrapper.jar
+-rw-rw-r-- 1 maobits maobits   339 jul 29 17:09 gradle-wrapper.properties
+90%..............100%
+
+Welcome to Gradle 9.6.1!
+
+Here are the highlights of this release:
+ - Improved Configuration Cache hit rates
+ - Additional CLI rendering options
+ - Important project hierarchy lookup deprecations
+
+For more details see https://docs.gradle.org/9.6.1/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 9.6.1
+------------------------------------------------------------
+
+Build time:    2026-06-26 14:25:50 UTC
+Revision:      309d128bd9fe8c0b71311878fc660b9cbaa07c51
+
+Kotlin:        2.3.21
+Groovy:        4.0.32
+Ant:           Apache Ant(TM) version 1.10.17 compiled on April 6 2026
+Launcher JVM:  17.0.17 (Eclipse Adoptium 17.0.17+10)
+Daemon JVM:    /home/maobits/.sdkman/candidates/java/17.0.17-tem (no Daemon JVM specified, using current Java home)
+OS:            Linux 6.17.0-40-generic amd64
+
+
+------------------------------------------------------------
+Gradle 9.6.1
+------------------------------------------------------------
+
+Build time:    2026-06-26 14:25:50 UTC
+Revision:      309d128bd9fe8c0b71311878fc660b9cbaa07c51
+
+Kotlin:        2.3.21
+Groovy:        4.0.32
+Ant:           Apache Ant(TM) version 1.10.17 compiled on April 6 2026
+Launcher JVM:  17.0.17 (Eclipse Adoptium 17.0.17+10)
+Daemon JVM:    /home/maobits/.sdkman/candidates/java/17.0.17-tem (no Daemon JVM specified, using current Java home)
+OS:            Linux 6.17.0-40-generic amd64
+
