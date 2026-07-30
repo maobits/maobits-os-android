@@ -1,0 +1,103 @@
+=== MANIFEST LABELS AND COMPONENTS ===
+app/src/main/AndroidManifest.xml:5:    <!-- Internet permissions for Nostr relay connections -->
+app/src/main/AndroidManifest.xml:6:    <uses-permission android:name="android.permission.INTERNET" />
+app/src/main/AndroidManifest.xml:7:    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+app/src/main/AndroidManifest.xml:8:    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+app/src/main/AndroidManifest.xml:10:    <!-- Bluetooth permissions -->
+app/src/main/AndroidManifest.xml:11:    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+app/src/main/AndroidManifest.xml:12:    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+app/src/main/AndroidManifest.xml:13:    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+app/src/main/AndroidManifest.xml:14:    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+app/src/main/AndroidManifest.xml:15:    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+app/src/main/AndroidManifest.xml:17:    <!-- Location permission required for BLE scanning -->
+app/src/main/AndroidManifest.xml:18:    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+app/src/main/AndroidManifest.xml:19:    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+app/src/main/AndroidManifest.xml:20:    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+app/src/main/AndroidManifest.xml:22:    <!-- Notification permissions -->
+app/src/main/AndroidManifest.xml:23:    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+app/src/main/AndroidManifest.xml:25:    <!-- Wi‑Fi / Wi‑Fi Aware permissions (also used for hotspot APK sharing) -->
+app/src/main/AndroidManifest.xml:26:    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+app/src/main/AndroidManifest.xml:27:    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+app/src/main/AndroidManifest.xml:28:    <!-- Android 13+ runtime permission for Wi‑Fi operations (including Aware and Wi‑Fi P2P) -->
+app/src/main/AndroidManifest.xml:29:    <uses-permission
+app/src/main/AndroidManifest.xml:30:        android:name="android.permission.NEARBY_WIFI_DEVICES"
+app/src/main/AndroidManifest.xml:33:    <uses-permission android:name="android.permission.ACCESS_LOCAL_NETWORK" />
+app/src/main/AndroidManifest.xml:35:    <uses-permission android:name="android.permission.WAKE_LOCK" />
+app/src/main/AndroidManifest.xml:37:    <!-- Signature permission for internal UI shutdown broadcasts -->
+app/src/main/AndroidManifest.xml:38:    <uses-permission android:name="com.bitchat.android.permission.FORCE_FINISH" />
+app/src/main/AndroidManifest.xml:39:    <!-- Foreground service and boot permissions for long-running background mesh -->
+app/src/main/AndroidManifest.xml:40:    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+app/src/main/AndroidManifest.xml:41:    <!-- Connected device foreground service type for BLE operations (API 34+) -->
+app/src/main/AndroidManifest.xml:42:    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+app/src/main/AndroidManifest.xml:43:    <!-- Data sync foreground service type (required when declaring dataSync) -->
+app/src/main/AndroidManifest.xml:44:    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+app/src/main/AndroidManifest.xml:45:    <!-- Location foreground service type required for BLE scanning in background -->
+app/src/main/AndroidManifest.xml:46:    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+app/src/main/AndroidManifest.xml:47:    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+app/src/main/AndroidManifest.xml:50:    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+app/src/main/AndroidManifest.xml:52:    <uses-permission android:name="android.permission.CAMERA" />
+app/src/main/AndroidManifest.xml:54:    <!-- Storage permissions for file sharing -->
+app/src/main/AndroidManifest.xml:55:    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+app/src/main/AndroidManifest.xml:56:    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+app/src/main/AndroidManifest.xml:57:    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+app/src/main/AndroidManifest.xml:58:    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+app/src/main/AndroidManifest.xml:60:    <!-- Haptic feedback permission -->
+app/src/main/AndroidManifest.xml:61:    <uses-permission android:name="android.permission.VIBRATE" />
+app/src/main/AndroidManifest.xml:63:    <!-- Battery optimization permission -->
+app/src/main/AndroidManifest.xml:64:    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+app/src/main/AndroidManifest.xml:73:    <permission
+app/src/main/AndroidManifest.xml:74:        android:name="com.bitchat.android.permission.FORCE_FINISH"
+app/src/main/AndroidManifest.xml:82:        android:icon="@mipmap/ic_launcher"
+app/src/main/AndroidManifest.xml:84:        android:roundIcon="@mipmap/ic_launcher_round"
+app/src/main/AndroidManifest.xml:85:        android:label="@string/app_name"
+app/src/main/AndroidManifest.xml:87:        android:theme="@style/Theme.BitchatAndroid"
+app/src/main/AndroidManifest.xml:89:        <service
+app/src/main/AndroidManifest.xml:96:        </service>
+app/src/main/AndroidManifest.xml:99:        <provider
+app/src/main/AndroidManifest.xml:101:            android:authorities="${applicationId}.fileprovider"
+app/src/main/AndroidManifest.xml:107:        </provider>
+app/src/main/AndroidManifest.xml:108:        <activity
+app/src/main/AndroidManifest.xml:111:            android:theme="@style/Theme.BitchatAndroid"
+app/src/main/AndroidManifest.xml:113:        <activity
+app/src/main/AndroidManifest.xml:116:            android:label="@string/app_name"
+app/src/main/AndroidManifest.xml:117:            android:theme="@style/Theme.BitchatAndroid"
+app/src/main/AndroidManifest.xml:130:        </activity>
+app/src/main/AndroidManifest.xml:132:        <!-- Persistent foreground service to run the mesh in background -->
+app/src/main/AndroidManifest.xml:133:        <service
+app/src/main/AndroidManifest.xml:134:            android:name=".service.MeshForegroundService"
+app/src/main/AndroidManifest.xml:138:        </service>
+app/src/main/AndroidManifest.xml:140:        <receiver
+app/src/main/AndroidManifest.xml:141:            android:name=".service.ConversationNotificationReceiver"
+app/src/main/AndroidManifest.xml:145:        <!-- Auto-start mesh service after boot if enabled -->
+app/src/main/AndroidManifest.xml:146:        <receiver
+app/src/main/AndroidManifest.xml:147:            android:name=".service.BootCompletedReceiver"
+app/src/main/AndroidManifest.xml:154:        </receiver>
+app/src/main/AndroidManifest.xml:157:        <activity
+app/src/main/AndroidManifest.xml:160:            android:label="Share BitChat"
+app/src/main/AndroidManifest.xml:161:            android:theme="@style/Theme.BitchatAndroid"
+app/src/main/AndroidManifest.xml:164:        <!-- Declare the foreground service type for WorkManager's foreground
+app/src/main/AndroidManifest.xml:165:             service so the APK download worker can run as dataSync work -->
+app/src/main/AndroidManifest.xml:166:        <service
+app/src/debug/AndroidManifest.xml:10:        <receiver
+app/src/debug/AndroidManifest.xml:17:        </receiver>
+wear/src/main/AndroidManifest.xml:10:    <!-- Bluetooth mesh only. Deliberately NO android.permission.INTERNET and no location. -->
+wear/src/main/AndroidManifest.xml:11:    <uses-permission
+wear/src/main/AndroidManifest.xml:12:        android:name="android.permission.BLUETOOTH_SCAN"
+wear/src/main/AndroidManifest.xml:15:    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+wear/src/main/AndroidManifest.xml:16:    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+wear/src/main/AndroidManifest.xml:17:    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+wear/src/main/AndroidManifest.xml:18:    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+wear/src/main/AndroidManifest.xml:19:    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+wear/src/main/AndroidManifest.xml:20:    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+wear/src/main/AndroidManifest.xml:21:    <uses-permission android:name="android.permission.VIBRATE" />
+wear/src/main/AndroidManifest.xml:26:        android:icon="@mipmap/ic_launcher"
+wear/src/main/AndroidManifest.xml:27:        android:roundIcon="@mipmap/ic_launcher_round"
+wear/src/main/AndroidManifest.xml:28:        android:label="@string/app_name"
+wear/src/main/AndroidManifest.xml:30:        android:theme="@android:style/Theme.DeviceDefault">
+wear/src/main/AndroidManifest.xml:36:        <service
+wear/src/main/AndroidManifest.xml:37:            android:name=".service.WearMeshForegroundService"
+wear/src/main/AndroidManifest.xml:41:        <activity
+wear/src/main/AndroidManifest.xml:46:            android:theme="@style/BitchatLaunchTheme">
+wear/src/main/AndroidManifest.xml:51:        </activity>
+wear/src/debug/AndroidManifest.xml:4:        <receiver
+wear/src/debug/AndroidManifest.xml:10:        </receiver>
