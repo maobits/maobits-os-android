@@ -1,0 +1,240 @@
+=== COLORS, THEMES, STYLES, ICON XML REFERENCES ===
+app/src/main/res/drawable/ic_launcher_background.xml:9:        android:fillColor="#000000" />
+app/src/main/res/drawable/ic_launcher_foreground.xml:13:            android:fillColor="#FFFFFF" />
+app/src/main/res/drawable/ic_launcher_monochrome.xml:14:            android:fillColor="#000000" />
+app/src/main/res/drawable/ic_notification.xml:9:        android:fillColor="@android:color/white"
+app/src/main/res/drawable/ic_notification.xml:13:        android:fillColor="@android:color/black"
+app/src/main/res/drawable/ic_notification.xml:17:        android:fillColor="@android:color/black"
+app/src/main/res/drawable/ic_notification.xml:20:        android:fillColor="@android:color/black"
+app/src/main/res/drawable/ic_spec_bluetooth.xml:6:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M10,2.75V17.25"/>
+app/src/main/res/drawable/ic_spec_bluetooth.xml:7:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M10,2.75L14.5,7.25L5.5,12.75"/>
+app/src/main/res/drawable/ic_spec_bluetooth.xml:8:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M10,17.25L14.5,12.75L5.5,7.25"/>
+app/src/main/res/drawable/ic_spec_bookmark_filled.xml:3:    <path android:fillColor="#FFFFFFFF" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.5"
+app/src/main/res/drawable/ic_spec_bookmark_outline.xml:3:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.5"
+app/src/main/res/drawable/ic_spec_chat_bubbles.xml:7:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_chat_bubbles.xml:10:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_check.xml:6:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M4.25,10.5L8.25,14.5L15.75,6"/>
+app/src/main/res/drawable/ic_spec_close.xml:6:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M5.5,5.5L14.5,14.5"/>
+app/src/main/res/drawable/ic_spec_close.xml:7:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M14.5,5.5L5.5,14.5"/>
+app/src/main/res/drawable/ic_spec_command.xml:7:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_command.xml:10:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_envelope.xml:6:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M15.75,15.5H4.25C3.2145,15.5 2.375,14.6605 2.375,13.625V6.375C2.375,5.3395 3.2145,4.5 4.25,4.5H15.75C16.7855,4.5 17.625,5.3395 17.625,6.375V13.625C17.625,14.6605 16.7855,15.5 15.75,15.5Z"/>
+app/src/main/res/drawable/ic_spec_envelope.xml:7:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M3.1,5.75L10,10.85L16.9,5.75"/>
+app/src/main/res/drawable/ic_spec_eye_off.xml:4:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M16.625,692C16.625,692 20.375,685.125 26,685.125C31.625,685.125 35.375,692 35.375,692C35.375,692 31.625,698.875 26,698.875C20.375,698.875 16.625,692 16.625,692Z"/>
+app/src/main/res/drawable/ic_spec_eye_off.xml:5:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:pathData="M22.25,692C22.25,689.929 23.9288,688.25 26,688.25M29.75,692C29.75,694.071 28.0712,695.75 26,695.75M17.25,700.75L34.75,683.25"/>
+app/src/main/res/drawable/ic_spec_globe.xml:7:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_globe.xml:10:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_globe.xml:13:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_lock.xml:7:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M32.25,329.375H19.75C18.715,329.375 17.875,328.535 17.875,327.5V321.25C17.875,320.215 18.715,319.375 19.75,319.375H32.25C33.285,319.375 34.125,320.215 34.125,321.25V327.5C34.125,328.535 33.285,329.375 32.25,329.375Z"/>
+app/src/main/res/drawable/ic_spec_lock.xml:8:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M21.625,316.875V315C21.625,312.584 23.5838,310.625 26,310.625C28.4162,310.625 30.375,312.584 30.375,315V316.875"/>
+app/src/main/res/drawable/ic_spec_lock.xml:9:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M26,326.25C27.0355,326.25 27.875,325.411 27.875,324.375C27.875,323.339 27.0355,322.5 26,322.5C24.9645,322.5 24.125,323.339 24.125,324.375C24.125,325.411 24.9645,326.25 26,326.25Z"/>
+app/src/main/res/drawable/ic_spec_lock_open.xml:9:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M32.25,329.375H19.75C18.715,329.375 17.875,328.535 17.875,327.5V321.25C17.875,320.215 18.715,319.375 19.75,319.375H32.25C33.285,319.375 34.125,320.215 34.125,321.25V327.5C34.125,328.535 33.285,329.375 32.25,329.375Z"/>
+app/src/main/res/drawable/ic_spec_lock_open.xml:10:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M34.125,316.875V315C34.125,312.584 32.1662,310.625 29.75,310.625C27.3338,310.625 25.375,312.584 25.375,315V316.5"/>
+app/src/main/res/drawable/ic_spec_lock_open.xml:11:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M26,326.25C27.0355,326.25 27.875,325.411 27.875,324.375C27.875,323.339 27.0355,322.5 26,322.5C24.9645,322.5 24.125,323.339 24.125,324.375C24.125,325.411 24.9645,326.25 26,326.25Z"/>
+app/src/main/res/drawable/ic_spec_mention.xml:4:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M29.5236,587.888V594.4C29.5236,596.41 32.5761,596.856 34.1749,594.139C35.5299,591.84 35.1974,588.334 33.5049,586.025C31.0149,582.629 25.2574,581.359 21.0736,584.166C17.2311,586.746 15.8624,591.968 17.9861,596.188C20.0874,600.364 25.0199,602.386 29.4861,600.876"/>
+app/src/main/res/drawable/ic_spec_mention.xml:5:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M25.8485,595.785C27.8698,595.785 29.5085,594.032 29.5085,591.87C29.5085,589.708 27.8698,587.955 25.8485,587.955C23.8271,587.955 22.1885,589.708 22.1885,591.87C22.1885,594.032 23.8271,595.785 25.8485,595.785Z"/>
+app/src/main/res/drawable/ic_spec_on_location_person.xml:7:        android:fillColor="#00000000"
+app/src/main/res/drawable/ic_spec_on_location_person.xml:8:        android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_panic.xml:4:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M17.875,805.375H22.875M20.375,786.625V789.125M20.375,789.125L27.875,796.625M16.625,790.375L22.875,796.625M30.375,789.125L35.375,794.125M25.375,789.125L32.875,796.625M35.375,789.125H16.625V796.625H35.375V789.125ZM20.375,805.375V799.125M29.125,805.375H34.125M31.625,786.625V789.125M31.625,805.375V799.125"/>
+app/src/main/res/drawable/ic_spec_people.xml:7:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_people.xml:10:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_person.xml:7:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_person.xml:10:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_range.xml:7:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M25.375,386.125C26.0654,386.125 26.625,385.565 26.625,384.875C26.625,384.185 26.0654,383.625 25.375,383.625C24.6846,383.625 24.125,384.185 24.125,384.875C24.125,385.565 24.6846,386.125 25.375,386.125Z"/>
+app/src/main/res/drawable/ic_spec_range.xml:8:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:pathData="M25.375,397.375V386.125M21.625,397.375H29.125"/>
+app/src/main/res/drawable/ic_spec_range.xml:9:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M28.9102,388.41C29.8475,387.472 30.3741,386.201 30.3741,384.875C30.3741,383.549 29.8475,382.278 28.9102,381.34M31.5625,391.062C32.3751,390.25 33.0197,389.285 33.4595,388.224C33.8993,387.162 34.1256,386.024 34.1256,384.875C34.1256,383.726 33.8993,382.588 33.4595,381.526C33.0197,380.465 32.3751,379.5 31.5625,378.688M21.8399,388.41C20.9026,387.472 20.376,386.201 20.376,384.875C20.376,383.549 20.9026,382.278 21.8399,381.34M19.1876,391.062C18.375,390.25 17.7304,389.285 17.2907,388.224C16.8509,387.162 16.6245,386.024 16.6245,384.875C16.6245,383.726 16.8509,382.588 17.2907,381.526C17.7304,380.465 18.375,379.5 19.1876,378.688"/>
+app/src/main/res/drawable/ic_spec_routed.xml:6:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M6,5.25A1.75,1.75 0 1,1 2.5,5.25A1.75,1.75 0 1,1 6,5.25Z"/>
+app/src/main/res/drawable/ic_spec_routed.xml:7:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M17.5,5.25A1.75,1.75 0 1,1 14,5.25A1.75,1.75 0 1,1 17.5,5.25Z"/>
+app/src/main/res/drawable/ic_spec_routed.xml:8:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M11.75,15.75A1.75,1.75 0 1,1 8.25,15.75A1.75,1.75 0 1,1 11.75,15.75Z"/>
+app/src/main/res/drawable/ic_spec_routed.xml:9:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M5.1,6.9L9.3,14.1"/>
+app/src/main/res/drawable/ic_spec_routed.xml:10:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M14.9,6.9L10.7,14.1"/>
+app/src/main/res/drawable/ic_spec_shuffle.xml:4:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M16.625,749.625H16.88C18.3088,749.625 19.6688,749.014 20.6175,747.946L27.6338,740.053C28.5825,738.985 29.9425,738.374 31.3712,738.374H35.375M31.625,734.625L35.375,738.375L31.625,742.125M26.3477,746.5L27.6339,747.946C28.5827,749.014 29.9427,749.625 31.3714,749.625H35.3752M16.625,738.375H16.88C18.3088,738.375 19.6688,738.986 20.6175,740.054L21.9025,741.5M31.625,753.375L35.375,749.625L31.625,745.875"/>
+app/src/main/res/drawable/ic_spec_star.xml:4:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25"
+app/src/main/res/drawable/ic_spec_star_filled.xml:4:        <path android:fillColor="#FFFFFFFF" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25"
+app/src/main/res/drawable/ic_spec_sync.xml:6:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M3.75,10A6.25,6.25 0 0,1 14.9,6.15"/>
+app/src/main/res/drawable/ic_spec_sync.xml:7:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M11.4,6.6L15.1,6.4L14.9,2.7"/>
+app/src/main/res/drawable/ic_spec_sync.xml:8:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M16.25,10A6.25,6.25 0 0,1 5.1,13.85"/>
+app/src/main/res/drawable/ic_spec_sync.xml:9:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M8.6,13.4L4.9,13.6L5.1,17.3"/>
+app/src/main/res/drawable/ic_spec_teleport.xml:3:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1"
+app/src/main/res/drawable/ic_spec_teleport.xml:6:    <path android:fillColor="#FFFFFFFF" android:pathData="M5,5A1,1 0,1 0,5,7A1,1 0,1 0,5,5M11,5A1,1 0,1 0,11,7A1,1 0,1 0,11,5"/>
+app/src/main/res/drawable/ic_spec_teleport.xml:7:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1"
+app/src/main/res/drawable/ic_spec_warning.xml:6:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M10,3.25L17.75,16.75H2.25L10,3.25Z"/>
+app/src/main/res/drawable/ic_spec_warning.xml:7:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M10,8V11.5"/>
+app/src/main/res/drawable/ic_spec_warning.xml:8:    <path android:fillColor="#FFFFFFFF" android:pathData="M10.9,14.25A0.9,0.9 0 1,1 9.1,14.25A0.9,0.9 0 1,1 10.9,14.25Z"/>
+app/src/main/res/drawable/ic_spec_waveform.xml:3:    <path android:fillColor="#FFFFFFFF"
+app/src/main/res/drawable/ic_spec_wifi.xml:6:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M3.5,8.5C6.1,5.7 13.9,5.7 16.5,8.5"/>
+app/src/main/res/drawable/ic_spec_wifi.xml:7:    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M6.4,11.6C8.1,9.8 11.9,9.8 13.6,11.6"/>
+app/src/main/res/drawable/ic_spec_wifi.xml:8:    <path android:fillColor="#FFFFFFFF" android:pathData="M11,15.25A1,1 0 1,1 9,15.25A1,1 0 1,1 11,15.25Z"/>
+app/src/main/res/drawable/ic_spec_wifi_off.xml:7:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M21.1387,252.139C22.4278,250.851 24.1757,250.127 25.998,250.127C27.8204,250.127 29.5683,250.851 30.8574,252.139"/>
+app/src/main/res/drawable/ic_spec_wifi_off.xml:8:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M27.25,255.601C27.4831,255.81 27.6603,256.073 27.7656,256.368C27.8708,256.662 27.9008,256.978 27.8527,257.287C27.8046,257.596 27.68,257.888 27.4902,258.137C27.3004,258.385 27.0514,258.582 26.766,258.71C26.4806,258.838 26.1677,258.892 25.856,258.868C25.5442,258.844 25.2433,258.743 24.9809,258.573C24.7184,258.403 24.5026,258.17 24.3531,257.895C24.2036,257.62 24.1252,257.313 24.125,257"/>
+app/src/main/res/drawable/ic_spec_wifi_off.xml:9:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M17.6025,248.604C19.8294,246.378 22.8493,245.127 25.9982,245.127C29.147,245.127 32.1669,246.378 34.3938,248.604"/>
+app/src/main/res/drawable/ic_spec_wifi_off.xml:10:        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.25" android:strokeLineCap="round" android:pathData="M34.125,243.875L19.125,258.875"/>
+app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:2:<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:3:    <background android:drawable="@drawable/ic_launcher_background" />
+app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:4:    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:5:    <monochrome android:drawable="@drawable/ic_launcher_monochrome" />
+app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:6:</adaptive-icon>
+app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:2:<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:3:    <background android:drawable="@drawable/ic_launcher_background" />
+app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:4:    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:5:    <monochrome android:drawable="@drawable/ic_launcher_monochrome" />
+app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:6:</adaptive-icon>
+app/src/main/res/values-fil/strings.xml:32:    <string name="battery_optimization_explanation">Tumatakbo ang bitchat sa background upang mapanatili ang mesh na koneksyon sa mga kalapit na device. Maaaring maputol ito ng pag‑optimize ng baterya na nagdudulot ng pagkaantala o pagkawala ng mensahe.\n\nAng pag‑disable nito ay tinitiyak ang maaasahang peer‑to‑peer na pagmemensahe.</string>
+app/src/main/res/values-fil/strings.xml:37:    <string name="battery_optimization_success_message">Maaasahang tatakbo ang bitchat sa background</string>
+app/src/main/res/values-fil/strings.xml:256:    <string name="battery_optimization_explanation_short">kailangang tumakbo ang bitchat sa background para sa mesh; maaaring putulin ito ng pag‑optimize.</string>
+app/src/main/res/values-he/strings.xml:194:  <string name="about_background_title">הפעל ברקע</string>
+app/src/main/res/values-he/strings.xml:195:  <string name="about_background_desc">שמור על רשת ה-Mesh פעילה כאשר האפליקציה סגורה (שירות חזית)</string>
+app/src/main/res/values-he/strings.xml:290:  <string name="background_location_required_title">מומלץ מיקום ברקע</string>
+app/src/main/res/values-he/strings.xml:291:  <string name="background_location_required_subtitle">אופציונלי, משפר את אמינות ה-Mesh</string>
+app/src/main/res/values-he/strings.xml:292:  <string name="background_location_explanation">אנדרואיד ממליץ על מיקום ברקע כדי ש-bitchat יוכל לסרוק מכשירים קרובים כשהאפליקציה אינה פתוחה. זה שומר על פעילות ה-Mesh לאחר איתחול מחדש.</string>
+app/src/main/res/values-he/strings.xml:293:  <string name="background_location_settings_tip">כשההגדרות נפתחות, בחר \"אפשר תמיד\".</string>
+app/src/main/res/values-he/strings.xml:294:  <string name="background_location_needs_for">bitchat משתמש במיקום ברקע עבור:</string>
+app/src/main/res/values-he/strings.xml:295:  <string name="background_location_needs_bullets">- סריקת מכשירים קרובים כשהאפליקציה סגורה\n- חיבור מחדש לאחר איתחול\n- שמירה על פעילות ה-Mesh ברקע</string>
+app/src/main/res/values-he/strings.xml:296:  <string name="background_location_privacy_note">אנחנו לעולם לא אוספים או שומרים את המיקום שלך. הפרטיות שלך בטוחה.</string>
+app/src/main/res/values-he/strings.xml:297:  <string name="grant_background_location">אפשר מיקום ברקע</string>
+app/src/main/res/values-he/strings.xml:298:  <string name="skip_background_location">המשך ללא מיקום ברקע</string>
+app/src/main/res/values-he/strings.xml:373:  <string name="perm_background_location_desc">מומלץ כדי לסרוק מכשירים קרובים כשהאפליקציה ברקע</string>
+app/src/main/res/values-he/strings.xml:374:  <string name="perm_background_location_system">אפשר גישה למיקום ברקע</string>
+app/src/main/res/values-he/strings.xml:381:  <string name="perm_type_background_location">מיקום ברקע</string>
+app/src/main/res/values-it/strings.xml:32:    <string name="battery_optimization_explanation">bitchat viene eseguito in background per mantenere le connessioni di rete mesh con i dispositivi vicini. L\'ottimizzazione della batteria può interrompere queste connessioni, causando ritardi o perdita di messaggi.\n\nDisattivare l\'ottimizzazione della batteria garantisce una messaggistica peer-to-peer affidabile.</string>
+app/src/main/res/values-it/strings.xml:37:    <string name="battery_optimization_success_message">bitchat può funzionare in modo affidabile in background</string>
+app/src/main/res/values-it/strings.xml:38:    <string name="battery_optimization_benefits">• Garantisce la consegna affidabile dei messaggi\n• Mantiene la connettività della rete mesh\n• Consente l\'inoltro dei messaggi in background\n• Previene le interruzioni della connessione</string>
+app/src/main/res/values-it/strings.xml:265:    <string name="battery_optimization_explanation_short">bitchat deve essere eseguito in background per mantenere le connessioni mesh. l\'ottimizzazione della batteria può interrompere queste connessioni.</string>
+app/src/main/res/values-it/strings.xml:308:    <string name="perm_battery_desc">Disattiva l\'ottimizzazione della batteria per garantire che bitchat funzioni in modo affidabile in background e mantenga le connessioni di rete mesh</string>
+app/src/main/res/values-ms/strings.xml:154:  <string name="about_background_title">jalankan di latar belakang</string>
+app/src/main/res/values-ms/strings.xml:155:  <string name="about_background_desc">kekalkan mesh aktif apabila apl ditutup (perkhidmatan latar depan)</string>
+app/src/main/res/values-ms/strings.xml:313:  <string name="background_location_required_title">Lokasi Latar Belakang Disyorkan</string>
+app/src/main/res/values-ms/strings.xml:314:  <string name="background_location_required_subtitle">pilihan, meningkatkan kebolehpercayaan mesh</string>
+app/src/main/res/values-ms/strings.xml:315:  <string name="background_location_explanation">Android mengesyorkan lokasi latar belakang supaya bitchat boleh mengimbas peranti berdekatan semasa apl tidak dibuka. Ini mengekalkan mesh aktif selepas but semula.</string>
+app/src/main/res/values-ms/strings.xml:316:  <string name="background_location_settings_tip">Apabila tetapan dibuka, pilih "Benarkan sepanjang masa".</string>
+app/src/main/res/values-ms/strings.xml:317:  <string name="background_location_needs_for">bitchat menggunakan lokasi latar belakang untuk:</string>
+app/src/main/res/values-ms/strings.xml:318:  <string name="background_location_needs_bullets">- mengimbas peranti berdekatan semasa apl ditutup\n- menyambung semula selepas but semula\n- mengekalkan mesh berjalan di latar belakang</string>
+app/src/main/res/values-ms/strings.xml:319:  <string name="background_location_privacy_note">Kami TIDAK PERNAH mengumpul atau menyimpan lokasi anda. Privasi anda selamat.</string>
+app/src/main/res/values-ms/strings.xml:320:  <string name="grant_background_location">Benarkan Lokasi Latar Belakang</string>
+app/src/main/res/values-ms/strings.xml:321:  <string name="skip_background_location">Teruskan tanpa lokasi latar belakang</string>
+app/src/main/res/values-ms/strings.xml:404:  <string name="perm_background_location_desc">Disyorkan untuk mengimbas peranti berdekatan semasa apl di latar belakang</string>
+app/src/main/res/values-ms/strings.xml:405:  <string name="perm_background_location_system">Benarkan akses lokasi latar belakang</string>
+app/src/main/res/values-ms/strings.xml:414:  <string name="perm_type_background_location">Lokasi Latar Belakang</string>
+app/src/main/res/values-night/themes.xml:3:    <!-- Dark theme -->
+app/src/main/res/values-night/themes.xml:4:    <style name="Theme.BitchatAndroid" parent="Theme.AppCompat.DayNight.NoActionBar">
+app/src/main/res/values-night/themes.xml:8:        <item name="android:statusBarColor">@android:color/transparent</item>
+app/src/main/res/values-night/themes.xml:9:        <item name="android:navigationBarColor">@android:color/transparent</item>
+app/src/main/res/values-night/themes.xml:15:    </style>
+app/src/main/res/values-pl/strings.xml:192:    <string name="about_background_title">działaj w tle</string>
+app/src/main/res/values-pl/strings.xml:193:    <string name="about_background_desc">utrzymuj sieć mesh aktywną po zamknięciu aplikacji (usługa pierwszoplanowa)</string>
+app/src/main/res/values-pl/strings.xml:288:    <string name="background_location_required_title">Zalecana lokalizacja w tle</string>
+app/src/main/res/values-pl/strings.xml:289:    <string name="background_location_required_subtitle">opcjonalne, poprawia niezawodność sieci mesh</string>
+app/src/main/res/values-pl/strings.xml:290:    <string name="background_location_explanation">Android zaleca lokalizację w tle, aby bitchat mógł skanować pobliskie urządzenia, gdy aplikacja nie jest otwarta. Utrzymuje to sieć mesh aktywną po ponownym uruchomieniu.</string>
+app/src/main/res/values-pl/strings.xml:291:    <string name="background_location_settings_tip">Gdy otworzą się ustawienia, wybierz „Zawsze zezwalaj”.</string>
+app/src/main/res/values-pl/strings.xml:292:    <string name="background_location_needs_for">bitchat używa lokalizacji w tle do:</string>
+app/src/main/res/values-pl/strings.xml:293:    <string name="background_location_needs_bullets">- skanowania pobliskich urządzeń, gdy aplikacja jest zamknięta\n- ponownego łączenia po restarcie\n- utrzymywania działania sieci mesh w tle</string>
+app/src/main/res/values-pl/strings.xml:294:    <string name="background_location_privacy_note">NIGDY nie gromadzimy ani nie zapisujemy Twojej lokalizacji. Twoja prywatność jest bezpieczna.</string>
+app/src/main/res/values-pl/strings.xml:295:    <string name="grant_background_location">Zezwól na lokalizację w tle</string>
+app/src/main/res/values-pl/strings.xml:296:    <string name="skip_background_location">Kontynuuj bez lokalizacji w tle</string>
+app/src/main/res/values-pl/strings.xml:371:    <string name="perm_background_location_desc">Zalecane do skanowania pobliskich urządzeń, gdy aplikacja działa w tle</string>
+app/src/main/res/values-pl/strings.xml:372:    <string name="perm_background_location_system">Zezwól na dostęp do lokalizacji w tle</string>
+app/src/main/res/values-pl/strings.xml:379:    <string name="perm_type_background_location">Lokalizacja w tle</string>
+app/src/main/res/values-ta/strings.xml:184:  <string name="about_background_title">பின்னணியில் இயக்கு</string>
+app/src/main/res/values-ta/strings.xml:185:  <string name="about_background_desc">ஆப் மூடப்பட்டாலும் மெஷை செயலில் வைத்திரு (முன்னணி சேவை)</string>
+app/src/main/res/values-ta/strings.xml:293:  <string name="background_location_required_title">பின்னணி இருப்பிடம் பரிந்துரைக்கப்படுகிறது</string>
+app/src/main/res/values-ta/strings.xml:294:  <string name="background_location_required_subtitle">விருப்பத்தேர்வு, மெஷ் நம்பகத்தன்மையை மேம்படுத்துகிறது</string>
+app/src/main/res/values-ta/strings.xml:295:  <string name="background_location_explanation">ஆப் திறக்கப்படாதபோதும் அருகிலுள்ள சாதனங்களை ஸ்கேன் செய்ய bitchat க்கு பின்னணி இருப்பிடத்தை Android பரிந்துரைக்கிறது. இது ரீபூட்டிற்குப் பிறகும் மெஷை உயிருடன் வைத்திருக்கும்.</string>
+app/src/main/res/values-ta/strings.xml:296:  <string name="background_location_settings_tip">அமைப்புகள் திறக்கும்போது, "எப்போதும் அனுமதிக்கவும்" என்பதைத் தேர்ந்தெடுக்கவும்.</string>
+app/src/main/res/values-ta/strings.xml:297:  <string name="background_location_needs_for">bitchat பின்னணி இருப்பிடத்தைப் பயன்படுத்துவது:</string>
+app/src/main/res/values-ta/strings.xml:298:  <string name="background_location_needs_bullets">- ஆப் மூடப்பட்டிருக்கும்போது அருகிலுள்ள சாதனங்களை ஸ்கேன் செய்ய\n- ரீபூட்டிற்குப் பிறகு மீண்டும் இணைக்க\n- மெஷை பின்னணியில் இயங்க வைக்க</string>
+app/src/main/res/values-ta/strings.xml:299:  <string name="background_location_privacy_note">உங்கள் இருப்பிடத்தை நாங்கள் ஒருபோதும் சேகரிக்கவோ சேமிக்கவோ மாட்டோம். உங்கள் தனியுரிமை பாதுகாப்பானது.</string>
+app/src/main/res/values-ta/strings.xml:300:  <string name="grant_background_location">பின்னணி இருப்பிடத்தை அனுமதி</string>
+app/src/main/res/values-ta/strings.xml:301:  <string name="skip_background_location">பின்னணி இருப்பிடம் இல்லாமல் தொடரவும்</string>
+app/src/main/res/values-ta/strings.xml:376:  <string name="perm_background_location_desc">ஆப் பின்னணியில் இருக்கும்போது அருகிலுள்ள சாதனங்களை ஸ்கேன் செய்ய பரிந்துரைக்கப்படுகிறது</string>
+app/src/main/res/values-ta/strings.xml:377:  <string name="perm_background_location_system">பின்னணி இருப்பிட அணுகலை அனுமதிக்கவும்</string>
+app/src/main/res/values-ta/strings.xml:384:  <string name="perm_type_background_location">பின்னணி இருப்பிடம்</string>
+app/src/main/res/values-uk/strings.xml:177:    <string name="about_background_title">працювати у фоновому режимі</string>
+app/src/main/res/values-uk/strings.xml:178:    <string name="about_background_desc">підтримувати mesh активним, коли додаток закрито (фонова служба)</string>
+app/src/main/res/values-uk/strings.xml:282:    <string name="background_location_required_title">Рекомендовано фонову геолокацію</string>
+app/src/main/res/values-uk/strings.xml:283:    <string name="background_location_required_subtitle">необов’язково, покращує надійність mesh-мережі</string>
+app/src/main/res/values-uk/strings.xml:284:    <string name="background_location_explanation">Android рекомендує фонову геолокацію, щоб bitchat міг сканувати пристрої поруч, коли додаток не відкрито. Це підтримує mesh-мережу активною після перезавантаження.</string>
+app/src/main/res/values-uk/strings.xml:285:    <string name="background_location_settings_tip">Коли відкриються налаштування, виберіть «Дозволити завжди».</string>
+app/src/main/res/values-uk/strings.xml:286:    <string name="background_location_needs_for">bitchat використовує фонову геолокацію для:</string>
+app/src/main/res/values-uk/strings.xml:287:    <string name="background_location_needs_bullets">- сканування пристроїв поруч, коли додаток закрито\n- повторного підключення після перезавантаження\n- підтримки роботи mesh-мережі у фоновому режимі</string>
+app/src/main/res/values-uk/strings.xml:288:    <string name="background_location_privacy_note">Ми НІКОЛИ не збираємо і не зберігаємо вашу локацію. Ваша приватність у безпеці.</string>
+app/src/main/res/values-uk/strings.xml:289:    <string name="grant_background_location">Дозволити фонову геолокацію</string>
+app/src/main/res/values-uk/strings.xml:290:    <string name="skip_background_location">Продовжити без фонової геолокації</string>
+app/src/main/res/values-uk/strings.xml:365:    <string name="perm_background_location_desc">Рекомендовано для сканування пристроїв поруч, коли додаток у фоновому режимі</string>
+app/src/main/res/values-uk/strings.xml:366:    <string name="perm_background_location_system">Дозволити доступ до фонової геолокації</string>
+app/src/main/res/values-uk/strings.xml:373:    <string name="perm_type_background_location">Фонова геолокація</string>
+app/src/main/res/values-zh-rCN/strings.xml:193:  <string name="about_background_title">后台运行</string>
+app/src/main/res/values-zh-rCN/strings.xml:194:  <string name="about_background_desc">应用关闭时保持 Mesh 处于活动状态（前台服务）</string>
+app/src/main/res/values-zh-rCN/strings.xml:289:  <string name="background_location_required_title">建议开启后台位置</string>
+app/src/main/res/values-zh-rCN/strings.xml:290:  <string name="background_location_required_subtitle">可选，可提升 Mesh 可靠性</string>
+app/src/main/res/values-zh-rCN/strings.xml:291:  <string name="background_location_explanation">Android 建议开启后台位置权限，以便 bitchat 在应用未打开时也能扫描附近设备。这能让 Mesh 网络在重启后保持活跃。</string>
+app/src/main/res/values-zh-rCN/strings.xml:292:  <string name="background_location_settings_tip">设置页面打开后，请选择"始终允许"。</string>
+app/src/main/res/values-zh-rCN/strings.xml:293:  <string name="background_location_needs_for">bitchat 使用后台位置以实现：</string>
+app/src/main/res/values-zh-rCN/strings.xml:294:  <string name="background_location_needs_bullets">- 应用关闭时扫描附近设备\n- 重启后重新连接\n- 使 Mesh 网络在后台持续运行</string>
+app/src/main/res/values-zh-rCN/strings.xml:295:  <string name="background_location_privacy_note">我们绝不会收集或存储你的位置信息。你的隐私是安全的。</string>
+app/src/main/res/values-zh-rCN/strings.xml:296:  <string name="grant_background_location">允许后台位置访问</string>
+app/src/main/res/values-zh-rCN/strings.xml:297:  <string name="skip_background_location">不开启后台位置，继续使用</string>
+app/src/main/res/values-zh-rCN/strings.xml:372:  <string name="perm_background_location_desc">建议开启，以便在应用处于后台时扫描附近的设备</string>
+app/src/main/res/values-zh-rCN/strings.xml:373:  <string name="perm_background_location_system">允许后台位置访问</string>
+app/src/main/res/values-zh-rCN/strings.xml:380:  <string name="perm_type_background_location">后台位置</string>
+app/src/main/res/values-zh-rTW/strings.xml:193:  <string name="about_background_title">在背景執行</string>
+app/src/main/res/values-zh-rTW/strings.xml:194:  <string name="about_background_desc">應用程式關閉時保持 mesh 網路運作中（前景服務）</string>
+app/src/main/res/values-zh-rTW/strings.xml:289:  <string name="background_location_required_title">建議開啟背景位置</string>
+app/src/main/res/values-zh-rTW/strings.xml:290:  <string name="background_location_required_subtitle">選用，可提升 mesh 網路可靠性</string>
+app/src/main/res/values-zh-rTW/strings.xml:291:  <string name="background_location_explanation">Android 建議開啟背景位置，讓 bitchat 在應用程式未開啟時也能掃描附近的裝置。這能讓 mesh 網路在重新開機後持續運作。</string>
+app/src/main/res/values-zh-rTW/strings.xml:292:  <string name="background_location_settings_tip">開啟設定後，請選擇「一律允許」。</string>
+app/src/main/res/values-zh-rTW/strings.xml:293:  <string name="background_location_needs_for">bitchat 使用背景位置以進行：</string>
+app/src/main/res/values-zh-rTW/strings.xml:294:  <string name="background_location_needs_bullets">- 在應用程式關閉時掃描附近的裝置\n- 重新開機後重新連線\n- 讓 mesh 網路在背景持續運作</string>
+app/src/main/res/values-zh-rTW/strings.xml:295:  <string name="background_location_privacy_note">我們絕不會收集或儲存你的位置。你的隱私安全無虞。</string>
+app/src/main/res/values-zh-rTW/strings.xml:296:  <string name="grant_background_location">允許背景位置</string>
+app/src/main/res/values-zh-rTW/strings.xml:297:  <string name="skip_background_location">不使用背景位置繼續</string>
+app/src/main/res/values-zh-rTW/strings.xml:372:  <string name="perm_background_location_desc">建議開啟，讓應用程式在背景時也能掃描附近的裝置</string>
+app/src/main/res/values-zh-rTW/strings.xml:373:  <string name="perm_background_location_system">允許背景位置存取</string>
+app/src/main/res/values-zh-rTW/strings.xml:380:  <string name="perm_type_background_location">背景位置</string>
+app/src/main/res/values/strings.xml:33:    <string name="battery_optimization_explanation">bitchat runs in the background to maintain mesh network connections with nearby devices. Battery optimization can interrupt these connections, causing messages to be delayed or missed.\n\nDisabling battery optimization ensures reliable peer-to-peer messaging.</string>
+app/src/main/res/values/strings.xml:38:    <string name="battery_optimization_success_message">bitchat can run reliably in the background</string>
+app/src/main/res/values/strings.xml:39:    <string name="battery_optimization_benefits">• Ensures reliable message delivery\n• Maintains mesh network connectivity\n• Allows background message relay\n• Prevents connection drops</string>
+app/src/main/res/values/strings.xml:71:  <string name="mesh_service_channel_desc">Keeps the Bluetooth mesh running in the background</string>
+app/src/main/res/values/strings.xml:173:  <string name="about_section_theme">Theme</string>
+app/src/main/res/values/strings.xml:310:  <string name="about_background_title">Run in Background</string>
+app/src/main/res/values/strings.xml:311:  <string name="about_background_desc">Keep mesh active when app is closed (foreground service)</string>
+app/src/main/res/values/strings.xml:492:  <string name="background_location_required_title">Background Location Recommended</string>
+app/src/main/res/values/strings.xml:493:  <string name="background_location_required_subtitle">Optional, improves mesh reliability</string>
+app/src/main/res/values/strings.xml:494:  <string name="background_location_explanation">Android recommends background location so bitchat can scan for nearby devices while the app is not open. This keeps the mesh alive after reboot.</string>
+app/src/main/res/values/strings.xml:495:  <string name="background_location_settings_tip">When settings opens, choose "Allow all the time".</string>
+app/src/main/res/values/strings.xml:496:  <string name="background_location_needs_for">bitchat uses background location for:</string>
+app/src/main/res/values/strings.xml:497:  <string name="background_location_needs_bullets">- Scan for nearby devices while the app is closed\n- Reconnect after reboot\n- Keep the mesh running in the background</string>
+app/src/main/res/values/strings.xml:498:  <string name="background_location_privacy_note">We NEVER collect or store your location. Your privacy is safe.</string>
+app/src/main/res/values/strings.xml:499:  <string name="grant_background_location">Allow Background Location</string>
+app/src/main/res/values/strings.xml:500:  <string name="skip_background_location">Continue without background location</string>
+app/src/main/res/values/strings.xml:515:  <string name="battery_optimization_explanation_short">bitchat needs to run in the background to maintain mesh connections. Battery optimization can interrupt these connections.</string>
+app/src/main/res/values/strings.xml:584:  <string name="perm_background_location_desc">Recommended to scan for nearby devices while the app is in the background</string>
+app/src/main/res/values/strings.xml:585:  <string name="perm_background_location_system">Allow background location access</string>
+app/src/main/res/values/strings.xml:588:  <string name="perm_battery_desc">Disable battery optimization to ensure bitchat runs reliably in the background and maintains mesh network connections</string>
+app/src/main/res/values/strings.xml:594:  <string name="perm_type_background_location">Background Location</string>
+app/src/main/res/values/themes.xml:3:    <!-- Base application theme -->
+app/src/main/res/values/themes.xml:4:    <style name="Theme.BitchatAndroid" parent="Theme.AppCompat.DayNight.NoActionBar">
+app/src/main/res/values/themes.xml:8:        <item name="android:statusBarColor">@android:color/transparent</item>
+app/src/main/res/values/themes.xml:9:        <item name="android:navigationBarColor">@android:color/transparent</item>
+app/src/main/res/values/themes.xml:15:    </style>
+wear/src/main/res/drawable/ic_launcher_background.xml:9:        android:fillColor="#000000" />
+wear/src/main/res/drawable/ic_launcher_foreground.xml:13:            android:fillColor="#FFFFFF" />
+wear/src/main/res/drawable/ic_launcher_monochrome.xml:14:            android:fillColor="#000000" />
+wear/src/main/res/drawable/ic_notification.xml:8:        android:fillColor="@android:color/white"
+wear/src/main/res/drawable/ic_spec_star.xml:10:            android:fillColor="#00000000"
+wear/src/main/res/drawable/ic_spec_star.xml:12:            android:strokeColor="#FFFFFFFF"
+wear/src/main/res/drawable/ic_spec_star_filled.xml:10:            android:fillColor="#FFFFFFFF"
+wear/src/main/res/drawable/ic_spec_star_filled.xml:12:            android:strokeColor="#FFFFFFFF"
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:2:<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:3:    <background android:drawable="@drawable/ic_launcher_background" />
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:4:    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:5:    <monochrome android:drawable="@drawable/ic_launcher_monochrome" />
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:6:</adaptive-icon>
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:2:<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:3:    <background android:drawable="@drawable/ic_launcher_background" />
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:4:    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:5:    <monochrome android:drawable="@drawable/ic_launcher_monochrome" />
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml:6:</adaptive-icon>
+wear/src/main/res/values-v31/styles.xml:3:    <style name="BitchatLaunchTheme" parent="android:Theme.DeviceDefault">
+wear/src/main/res/values-v31/styles.xml:5:        <item name="android:windowSplashScreenIconBackgroundColor">#000000</item>
+wear/src/main/res/values-v31/styles.xml:6:    </style>
+wear/src/main/res/values/strings.xml:5:    <string name="mesh_channel_description">Keeps the Bluetooth mesh running in the background</string>

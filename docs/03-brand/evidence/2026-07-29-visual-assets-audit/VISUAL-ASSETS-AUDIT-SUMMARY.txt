@@ -1,0 +1,23 @@
+=== MAOBITS OS ANDROID - VISUAL ASSETS AUDIT SUMMARY ===
+Generated at: 2026-07-29T22:30:38-05:00
+
+=== CURRENT BRANCH ===
+brand/1.1.5-visual-assets-audit
+
+=== CURRENT COMMIT ===
+c51559a (HEAD -> brand/1.1.5-visual-assets-audit, origin/main, main) chore(repo): merge audited Maobits OS Android baseline into main
+
+=== COUNTS ===
+Tracked visual resources: 83
+Launcher/adaptive icon references: 29
+Image dimensions lines: 15
+Theme/color reference lines: 113
+
+=== EVIDENCE FILES ===
+docs/03-brand/evidence/2026-07-29-visual-assets-audit/COLORS-THEMES-STYLES-VISUAL-REFERENCES.txt
+docs/03-brand/evidence/2026-07-29-visual-assets-audit/LAUNCHER-ICON-INVENTORY.txt
+docs/03-brand/evidence/2026-07-29-visual-assets-audit/TRACKED-VISUAL-RESOURCES.txt
+docs/03-brand/evidence/2026-07-29-visual-assets-audit/VISUAL-ASSETS-AUDIT-SUMMARY.txt
+docs/03-brand/evidence/2026-07-29-visual-assets-audit/VISUAL-RESOURCE-DIMENSIONS.txt
+docs/03-brand/evidence/2026-07-29-visual-assets-audit/VISUAL-RESOURCE-FILE-TYPES.txt
+docs/03-brand/evidence/2026-07-29-visual-assets-audit/VISUAL-RESOURCE-SHA256.txt

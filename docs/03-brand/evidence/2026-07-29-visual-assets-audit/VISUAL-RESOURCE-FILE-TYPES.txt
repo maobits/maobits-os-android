@@ -1,0 +1,83 @@
+=== VISUAL RESOURCE FILE TYPES ===
+app/src/main/assets/design-icons/bookmark-filled.svg | app/src/main/assets/design-icons/bookmark-filled.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/bookmark-outline.svg | app/src/main/assets/design-icons/bookmark-outline.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/chat-bubbles.svg | app/src/main/assets/design-icons/chat-bubbles.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/command.svg | app/src/main/assets/design-icons/command.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/eye-off.svg | app/src/main/assets/design-icons/eye-off.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/globe.svg | app/src/main/assets/design-icons/globe.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/lock.svg | app/src/main/assets/design-icons/lock.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/mention.svg | app/src/main/assets/design-icons/mention.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/on-location-person.svg | app/src/main/assets/design-icons/on-location-person.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/panic.svg | app/src/main/assets/design-icons/panic.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/people.svg | app/src/main/assets/design-icons/people.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/person.svg | app/src/main/assets/design-icons/person.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/range.svg | app/src/main/assets/design-icons/range.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/README.md | app/src/main/assets/design-icons/README.md: ASCII text
+app/src/main/assets/design-icons/shuffle.svg | app/src/main/assets/design-icons/shuffle.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/star-filled.svg | app/src/main/assets/design-icons/star-filled.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/star.svg | app/src/main/assets/design-icons/star.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/teleport.svg | app/src/main/assets/design-icons/teleport.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/waveform.svg | app/src/main/assets/design-icons/waveform.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/design-icons/wifi-off.svg | app/src/main/assets/design-icons/wifi-off.svg: SVG Scalable Vector Graphics image
+app/src/main/assets/nostr_relays.csv | app/src/main/assets/nostr_relays.csv: CSV ASCII text
+app/src/main/assets/world_borders.geojson | app/src/main/assets/world_borders.geojson: JSON text data
+app/src/main/assets/world_cities.geojson | app/src/main/assets/world_cities.geojson: JSON text data
+app/src/main/assets/world_land.geojson | app/src/main/assets/world_land.geojson: JSON text data
+app/src/main/res/drawable/ic_launcher_background.xml | app/src/main/res/drawable/ic_launcher_background.xml: XML 1.0 document, ASCII text
+app/src/main/res/drawable/ic_launcher_foreground.xml | app/src/main/res/drawable/ic_launcher_foreground.xml: ASCII text, with very long lines (853)
+app/src/main/res/drawable/ic_launcher_monochrome.xml | app/src/main/res/drawable/ic_launcher_monochrome.xml: ASCII text, with very long lines (853)
+app/src/main/res/drawable/ic_notification.xml | app/src/main/res/drawable/ic_notification.xml: XML 1.0 document, ASCII text
+app/src/main/res/drawable/ic_spec_bluetooth.xml | app/src/main/res/drawable/ic_spec_bluetooth.xml: ASCII text
+app/src/main/res/drawable/ic_spec_bookmark_filled.xml | app/src/main/res/drawable/ic_spec_bookmark_filled.xml: ASCII text
+app/src/main/res/drawable/ic_spec_bookmark_outline.xml | app/src/main/res/drawable/ic_spec_bookmark_outline.xml: ASCII text
+app/src/main/res/drawable/ic_spec_chat_bubbles.xml | app/src/main/res/drawable/ic_spec_chat_bubbles.xml: ASCII text, with very long lines (469)
+app/src/main/res/drawable/ic_spec_check.xml | app/src/main/res/drawable/ic_spec_check.xml: ASCII text
+app/src/main/res/drawable/ic_spec_close.xml | app/src/main/res/drawable/ic_spec_close.xml: ASCII text
+app/src/main/res/drawable/ic_spec_command.xml | app/src/main/res/drawable/ic_spec_command.xml: ASCII text
+app/src/main/res/drawable/ic_spec_envelope.xml | app/src/main/res/drawable/ic_spec_envelope.xml: ASCII text, with very long lines (367)
+app/src/main/res/drawable/ic_spec_eye_off.xml | app/src/main/res/drawable/ic_spec_eye_off.xml: ASCII text, with very long lines (345)
+app/src/main/res/drawable/ic_spec_globe.xml | app/src/main/res/drawable/ic_spec_globe.xml: ASCII text
+app/src/main/res/drawable/ic_spec_lock_open.xml | app/src/main/res/drawable/ic_spec_lock_open.xml: exported SGML document, ASCII text, with very long lines (400)
+app/src/main/res/drawable/ic_spec_lock.xml | app/src/main/res/drawable/ic_spec_lock.xml: ASCII text, with very long lines (400)
+app/src/main/res/drawable/ic_spec_mention.xml | app/src/main/res/drawable/ic_spec_mention.xml: ASCII text, with very long lines (445)
+app/src/main/res/drawable/ic_spec_on_location_person.xml | app/src/main/res/drawable/ic_spec_on_location_person.xml: ASCII text
+app/src/main/res/drawable/ic_spec_panic.xml | app/src/main/res/drawable/ic_spec_panic.xml: ASCII text, with very long lines (487)
+app/src/main/res/drawable/ic_spec_people.xml | app/src/main/res/drawable/ic_spec_people.xml: ASCII text, with very long lines (993)
+app/src/main/res/drawable/ic_spec_person.xml | app/src/main/res/drawable/ic_spec_person.xml: ASCII text
+app/src/main/res/drawable/ic_spec_range.xml | app/src/main/res/drawable/ic_spec_range.xml: ASCII text, with very long lines (810)
+app/src/main/res/drawable/ic_spec_routed.xml | app/src/main/res/drawable/ic_spec_routed.xml: ASCII text
+app/src/main/res/drawable/ic_spec_shuffle.xml | app/src/main/res/drawable/ic_spec_shuffle.xml: ASCII text, with very long lines (584)
+app/src/main/res/drawable/ic_spec_star_filled.xml | app/src/main/res/drawable/ic_spec_star_filled.xml: ASCII text
+app/src/main/res/drawable/ic_spec_star.xml | app/src/main/res/drawable/ic_spec_star.xml: ASCII text
+app/src/main/res/drawable/ic_spec_sync.xml | app/src/main/res/drawable/ic_spec_sync.xml: ASCII text
+app/src/main/res/drawable/ic_spec_teleport.xml | app/src/main/res/drawable/ic_spec_teleport.xml: ASCII text
+app/src/main/res/drawable/ic_spec_warning.xml | app/src/main/res/drawable/ic_spec_warning.xml: ASCII text
+app/src/main/res/drawable/ic_spec_waveform.xml | app/src/main/res/drawable/ic_spec_waveform.xml: ASCII text
+app/src/main/res/drawable/ic_spec_wifi_off.xml | app/src/main/res/drawable/ic_spec_wifi_off.xml: ASCII text, with very long lines (570)
+app/src/main/res/drawable/ic_spec_wifi.xml | app/src/main/res/drawable/ic_spec_wifi.xml: ASCII text
+app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml | app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml: XML 1.0 document, ASCII text
+app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml | app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml: XML 1.0 document, ASCII text
+app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_back.png | app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_back.png: PNG image data, 162 x 162, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_fore.png | app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_fore.png: PNG image data, 162 x 162, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-hdpi/ic_launcher.png | app/src/main/res/mipmap-hdpi/ic_launcher.png: PNG image data, 72 x 72, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_back.png | app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_back.png: PNG image data, 108 x 108, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_fore.png | app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_fore.png: PNG image data, 108 x 108, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-mdpi/ic_launcher.png | app/src/main/res/mipmap-mdpi/ic_launcher.png: PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_back.png | app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_back.png: PNG image data, 216 x 216, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_fore.png | app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_fore.png: PNG image data, 216 x 216, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-xhdpi/ic_launcher.png | app/src/main/res/mipmap-xhdpi/ic_launcher.png: PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_back.png | app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_back.png: PNG image data, 324 x 324, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_fore.png | app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_fore.png: PNG image data, 324 x 324, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-xxhdpi/ic_launcher.png | app/src/main/res/mipmap-xxhdpi/ic_launcher.png: PNG image data, 144 x 144, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_back.png | app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_back.png: PNG image data, 432 x 432, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png | app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png: PNG image data, 432 x 432, 8-bit/color RGBA, non-interlaced
+app/src/main/res/mipmap-xxxhdpi/ic_launcher.png | app/src/main/res/mipmap-xxxhdpi/ic_launcher.png: PNG image data, 192 x 192, 8-bit/color RGBA, non-interlaced
+app/src/main/res/raw/geist_mono_ofl.txt | app/src/main/res/raw/geist_mono_ofl.txt: ASCII text
+wear/src/main/res/drawable/ic_launcher_background.xml | wear/src/main/res/drawable/ic_launcher_background.xml: XML 1.0 document, ASCII text
+wear/src/main/res/drawable/ic_launcher_foreground.xml | wear/src/main/res/drawable/ic_launcher_foreground.xml: ASCII text, with very long lines (853)
+wear/src/main/res/drawable/ic_launcher_monochrome.xml | wear/src/main/res/drawable/ic_launcher_monochrome.xml: ASCII text, with very long lines (853)
+wear/src/main/res/drawable/ic_notification.xml | wear/src/main/res/drawable/ic_notification.xml: XML 1.0 document, ASCII text
+wear/src/main/res/drawable/ic_spec_star_filled.xml | wear/src/main/res/drawable/ic_spec_star_filled.xml: ASCII text
+wear/src/main/res/drawable/ic_spec_star.xml | wear/src/main/res/drawable/ic_spec_star.xml: ASCII text
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml | wear/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml: XML 1.0 document, ASCII text
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher.xml | wear/src/main/res/mipmap-anydpi-v26/ic_launcher.xml: XML 1.0 document, ASCII text

@@ -1,0 +1,16 @@
+=== VISUAL RESOURCE DIMENSIONS ===
+app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_back.png | 162x162 | RGBA
+app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_fore.png | 162x162 | RGBA
+app/src/main/res/mipmap-hdpi/ic_launcher.png | 72x72 | RGBA
+app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_back.png | 108x108 | RGBA
+app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_fore.png | 108x108 | RGBA
+app/src/main/res/mipmap-mdpi/ic_launcher.png | 48x48 | RGBA
+app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_back.png | 216x216 | RGBA
+app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_fore.png | 216x216 | RGBA
+app/src/main/res/mipmap-xhdpi/ic_launcher.png | 96x96 | RGBA
+app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_back.png | 324x324 | RGBA
+app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_fore.png | 324x324 | RGBA
+app/src/main/res/mipmap-xxhdpi/ic_launcher.png | 144x144 | RGBA
+app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_back.png | 432x432 | RGBA
+app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png | 432x432 | RGBA
+app/src/main/res/mipmap-xxxhdpi/ic_launcher.png | 192x192 | RGBA

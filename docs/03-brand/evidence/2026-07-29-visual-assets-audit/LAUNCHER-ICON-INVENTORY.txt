@@ -1,0 +1,32 @@
+=== LAUNCHER AND ADAPTIVE ICON RESOURCES ===
+app/src/main/res/drawable/ic_launcher_background.xml
+app/src/main/res/drawable/ic_launcher_foreground.xml
+app/src/main/res/drawable/ic_launcher_monochrome.xml
+app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_back.png
+app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_fore.png
+app/src/main/res/mipmap-hdpi/ic_launcher.png
+app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_back.png
+app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_fore.png
+app/src/main/res/mipmap-mdpi/ic_launcher.png
+app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_back.png
+app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_fore.png
+app/src/main/res/mipmap-xhdpi/ic_launcher.png
+app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_back.png
+app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_fore.png
+app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_back.png
+app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png
+app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+wear/src/main/res/drawable/ic_launcher_background.xml
+wear/src/main/res/drawable/ic_launcher_foreground.xml
+wear/src/main/res/drawable/ic_launcher_monochrome.xml
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+wear/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+
+=== MANIFEST ICON REFERENCES ===
+app/src/main/AndroidManifest.xml:82:        android:icon="@mipmap/ic_launcher"
+app/src/main/AndroidManifest.xml:84:        android:roundIcon="@mipmap/ic_launcher_round"
+wear/src/main/AndroidManifest.xml:26:        android:icon="@mipmap/ic_launcher"
+wear/src/main/AndroidManifest.xml:27:        android:roundIcon="@mipmap/ic_launcher_round"
