@@ -1,0 +1,29 @@
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/app/src/main/res/mipmap-hdpi/ic_launcher.png:           PNG image data, 72 x 72, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/app/src/main/res/mipmap-hdpi/ic_launcher_round.png:     PNG image data, 72 x 72, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/app/src/main/res/mipmap-mdpi/ic_launcher.png:           PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/app/src/main/res/mipmap-mdpi/ic_launcher_round.png:     PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/app/src/main/res/mipmap-xhdpi/ic_launcher.png:          PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png:    PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/app/src/main/res/mipmap-xxhdpi/ic_launcher.png:         PNG image data, 144 x 144, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png:   PNG image data, 144 x 144, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png:        PNG image data, 192 x 192, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png:  PNG image data, 192 x 192, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/preview/maobits-os-icon-preview-1024.png:               PNG image data, 1024 x 1024, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/preview/maobits-os-icon-preview-128.png:                PNG image data, 128 x 128, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/preview/maobits-os-icon-preview-256.png:                PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/preview/maobits-os-icon-preview-48.png:                 PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/preview/maobits-os-icon-preview-512.png:                PNG image data, 512 x 512, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/preview/maobits-os-icon-preview-72.png:                 PNG image data, 72 x 72, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/preview/maobits-os-icon-preview-96.png:                 PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/README.md:                                              Unicode text, UTF-8 text
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/SHA256SUMS.txt:                                         ASCII text
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/wear/src/main/res/mipmap-hdpi/ic_launcher.png:          PNG image data, 72 x 72, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/wear/src/main/res/mipmap-hdpi/ic_launcher_round.png:    PNG image data, 72 x 72, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/wear/src/main/res/mipmap-mdpi/ic_launcher.png:          PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/wear/src/main/res/mipmap-mdpi/ic_launcher_round.png:    PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/wear/src/main/res/mipmap-xhdpi/ic_launcher.png:         PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/wear/src/main/res/mipmap-xhdpi/ic_launcher_round.png:   PNG image data, 96 x 96, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/wear/src/main/res/mipmap-xxhdpi/ic_launcher.png:        PNG image data, 144 x 144, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/wear/src/main/res/mipmap-xxhdpi/ic_launcher_round.png:  PNG image data, 144 x 144, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/wear/src/main/res/mipmap-xxxhdpi/ic_launcher.png:       PNG image data, 192 x 192, 8-bit/color RGBA, non-interlaced
+docs/03-brand/generated/2026-07-30-maobits-os-icon-android-candidate/wear/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png: PNG image data, 192 x 192, 8-bit/color RGBA, non-interlaced
