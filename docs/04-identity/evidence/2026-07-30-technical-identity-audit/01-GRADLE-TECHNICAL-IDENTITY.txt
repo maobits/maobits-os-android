@@ -1,0 +1,14 @@
+
+=== GRADLE TECHNICAL IDENTITY ===
+./app/build.gradle.kts:25:    namespace = "com.bitchat.android"
+./app/build.gradle.kts:30:        applicationId = "com.bitchat.droid"
+./app/build.gradle.kts:33:        versionCode = 36
+./app/build.gradle.kts:34:        versionName = "1.7.5"
+./wear/build.gradle.kts:10:    namespace = "com.bitchat.watch"
+./wear/build.gradle.kts:14:        applicationId = "com.bitchat.watch"
+./wear/build.gradle.kts:19:        versionCode = 1
+./wear/build.gradle.kts:20:        versionName = "0.1.0"
+./build.gradle.kts:11:    group = "build setup"
+./build.gradle.kts:23:            group = "build setup"
+./build.gradle.kts:50:    group = "verification"
+./settings.gradle.kts:16:rootProject.name = "maobits-os-android"

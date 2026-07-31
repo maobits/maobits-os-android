@@ -1,0 +1,14 @@
+
+=== AUDIT FILE SHA256 ===
+57a290efff3c5a06c90015fd843681b7e74718e843b70ecdd79acea4531f3a78  docs/04-identity/evidence/2026-07-30-technical-identity-audit/00-REPOSITORY-STATE.txt
+5d6cece2f4bb428b16ad3f4e3e74cdc017c88da87e649a7c2450f47e31a7efcb  docs/04-identity/evidence/2026-07-30-technical-identity-audit/01-GRADLE-TECHNICAL-IDENTITY.txt
+76e56cbaab03d0164fc6f79d304d363997b317a3d8a7b69cb0aa849999cf7e24  docs/04-identity/evidence/2026-07-30-technical-identity-audit/02-MANIFEST-TECHNICAL-IDENTITY.txt
+5e139aa58d6948aa30653136ba4853ed24a11a8ae8dc4ae9ed6a00774f6e87a4  docs/04-identity/evidence/2026-07-30-technical-identity-audit/03-DEEP-LINKS-AND-SCHEMES.txt
+2620c2299530844ad48abefe15585d750edce4fd059de9ac55b7ba21d3ceea2a  docs/04-identity/evidence/2026-07-30-technical-identity-audit/04-FILEPROVIDER-AND-AUTHORITIES.txt
+bd414ef14ae6820f6b7cd2290f7b14a370252be781be1537aba85aae89d80e75  docs/04-identity/evidence/2026-07-30-technical-identity-audit/05-CUSTOM-PERMISSIONS.txt
+5cd555a410e8adfcb593165921dcc675476933e593c30613b61b37df5e0bb0cd  docs/04-identity/evidence/2026-07-30-technical-identity-audit/06-KOTLIN-JAVA-PACKAGES-AND-IMPORTS.txt
+f0ecd0468e577221911db95c935f080e0318bde2f1fd25ca5bd8a28af0255ee8  docs/04-identity/evidence/2026-07-30-technical-identity-audit/07-CODE-TECHNICAL-IDENTITY-REFERENCES.txt
+6f1dcf413e5d2e3d4992e2b7930adb3d219c520e07568f1f7d039f6c3caec68a  docs/04-identity/evidence/2026-07-30-technical-identity-audit/08-RESOURCE-TECHNICAL-IDENTITY-REFERENCES.txt
+897c3d6eb6bfc8885cb2b7d5cd44a9568f05db8b09d09c23101091f9d0ddae0b  docs/04-identity/evidence/2026-07-30-technical-identity-audit/09-TEST-DEBUG-TECHNICAL-IDENTITY-REFERENCES.txt
+02d2f553561794a08d6da8e26a1cc6346823095297467f15c50223aab0727789  docs/04-identity/evidence/2026-07-30-technical-identity-audit/10-MIGRATION-RISK-SUMMARY.txt
+63e0c50ec5046d48be4bbd0d907990d34d1f8317f420642bfccd70c91db5f22f  docs/04-identity/evidence/2026-07-30-technical-identity-audit/11-AUDIT-FILE-SHA256.txt

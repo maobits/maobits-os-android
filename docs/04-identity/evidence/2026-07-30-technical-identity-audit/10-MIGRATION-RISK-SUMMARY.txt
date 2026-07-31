@@ -1,0 +1,13 @@
+
+=== MIGRATION RISK SUMMARY ===
+This is an inventory phase only. No source file replacement was performed.
+
+High-risk areas to plan before migration:
+- applicationId: affects install/update continuity and app data.
+- namespace: affects generated R/BuildConfig and package references.
+- Kotlin package declarations/imports: affects compilation and refactoring scope.
+- custom permissions: affects receiver/service access and manifest references.
+- FileProvider authorities: affects URI grants and sharing.
+- deep links/schemes: affects external intents and compatibility.
+- debug/test references: may fail after migration if not updated intentionally.
+- Wear module identity: must stay compatible with paired mobile app strategy.

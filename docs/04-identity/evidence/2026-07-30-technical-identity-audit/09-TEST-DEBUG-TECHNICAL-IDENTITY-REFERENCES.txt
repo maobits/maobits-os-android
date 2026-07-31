@@ -1,0 +1,517 @@
+
+=== TEST AND DEBUG REFERENCES ===
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:1:package com.bitchat
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:3:import com.bitchat.android.model.BitchatFilePacket
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:4:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:5:import com.bitchat.android.model.BitchatMessageType
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:25:        val originalPacket = BitchatFilePacket(
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:34:        val decoded = BitchatFilePacket.decode(encoded!!)
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:50:        val packet = BitchatFilePacket(
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:85:        val packet = BitchatFilePacket(
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:120:        val originalPacket = BitchatFilePacket(
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:129:        val decoded = BitchatFilePacket.decode(encoded!!)
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:145:        val imageMessage = BitchatMessage(
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:149:            content = "/data/user/0/com.bitchat.android/files/images/photo.jpg",
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:150:            type = BitchatMessageType.Image,
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:155:        val audioMessage = BitchatMessage(
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:159:            content = "/data/user/0/com.bitchat.android/files/audio/voice.amr",
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:160:            type = BitchatMessageType.Audio,
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:165:        val fileMessage = BitchatMessage(
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:169:            content = "/data/user/0/com.bitchat.android/files/documents/document.pdf",
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:170:            type = BitchatMessageType.File,
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:178:            "/data/user/0/com.bitchat.android/files/images/photo.jpg",
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:194:        val imageMessage = BitchatMessage(
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:199:            type = BitchatMessageType.Image,
+app/src/test/kotlin/com/bitchat/FileTransferTest.kt:240:        val maxAllowedSize = com.bitchat.android.util.AppConstants.Media.MAX_FILE_SIZE_BYTES
+app/src/test/kotlin/com/bitchat/ColorTest.kt:1:package com.bitchat
+app/src/test/kotlin/com/bitchat/MeshPacketUtilsTest.kt:1:package com.bitchat
+app/src/test/kotlin/com/bitchat/MeshPacketUtilsTest.kt:3:import com.bitchat.android.mesh.MeshPacketUtils
+app/src/test/kotlin/com/bitchat/PeerManagerTest.kt:1:package com.bitchat
+app/src/test/kotlin/com/bitchat/PeerManagerTest.kt:3:import com.bitchat.android.mesh.PeerManager
+app/src/test/kotlin/com/bitchat/PeerManagerTest.kt:4:import com.bitchat.android.model.PeerCapabilities
+app/src/test/kotlin/com/bitchat/MainViewModelTest.kt:1:package com.bitchat
+app/src/test/kotlin/com/bitchat/MainViewModelTest.kt:3:import com.bitchat.android.MainViewModel
+app/src/test/kotlin/com/bitchat/MainViewModelTest.kt:4:import com.bitchat.android.onboarding.BatteryOptimizationStatus
+app/src/test/kotlin/com/bitchat/MainViewModelTest.kt:5:import com.bitchat.android.onboarding.LocationStatus
+app/src/test/kotlin/com/bitchat/MainViewModelTest.kt:6:import com.bitchat.android.onboarding.OnboardingState
+app/src/test/kotlin/com/bitchat/android/sync/GCSFilterTest.kt:1:package com.bitchat.android.sync
+app/src/test/kotlin/com/bitchat/android/services/ConversationAliasResolverTest.kt:1:package com.bitchat.android.services
+app/src/test/kotlin/com/bitchat/android/services/ConversationAliasResolverTest.kt:3:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/android/services/ConversationAliasResolverTest.kt:4:import com.bitchat.android.ui.ChatState
+app/src/test/kotlin/com/bitchat/android/services/ConversationAliasResolverTest.kt:33:        val firstArrival = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/ConversationAliasResolverTest.kt:39:        val secondArrival = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/ConversationAliasResolverTest.kt:45:        val thirdArrival = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/MessageRouterTest.kt:1:package com.bitchat.android.services
+app/src/test/kotlin/com/bitchat/android/services/MessageRouterTest.kt:5:import com.bitchat.android.identity.SecureIdentityStateManager
+app/src/test/kotlin/com/bitchat/android/services/MessageRouterTest.kt:6:import com.bitchat.android.mesh.MeshService
+app/src/test/kotlin/com/bitchat/android/services/MessageRouterTest.kt:7:import com.bitchat.android.mesh.PeerInfo
+app/src/test/kotlin/com/bitchat/android/services/ConversationRepositoryTest.kt:1:package com.bitchat.android.services
+app/src/test/kotlin/com/bitchat/android/services/ConversationRepositoryTest.kt:5:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/android/services/ConversationRepositoryTest.kt:49:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/ConversationRepositoryTest.kt:94:            message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/InMemoryConversationStorageCipher.kt:1:package com.bitchat.android.services
+app/src/test/kotlin/com/bitchat/android/services/ConversationListPreferencesTest.kt:1:package com.bitchat.android.services
+app/src/test/kotlin/com/bitchat/android/services/ConversationListPreferencesTest.kt:5:import com.bitchat.android.identity.SecureIdentityStateManager
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:1:package com.bitchat.android.services
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:3:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:4:import com.bitchat.android.model.DeliveryStatus
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:30:        val originalDelivery = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:47:        val first = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:112:        val live = BitchatMessage(id = "live-message", sender = "alice", content = "live", timestamp = Date(1))
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:113:        val noise = BitchatMessage(id = "noise-message", sender = "alice", content = "noise", timestamp = Date(2))
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:114:        val nostr = BitchatMessage(id = "nostr-message", sender = "alice", content = "nostr", timestamp = Date(3))
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:130:        val message = BitchatMessage(id = "noise-message", sender = "alice", content = "hello", timestamp = Date(1))
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:140:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:165:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:196:        val firstArrival = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:202:        val secondArrival = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:220:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:253:        val sending = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:295:                BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:319:                BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:330:            BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:347:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/AppStateStoreTest.kt:364:        val beforePanic = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:1:package com.bitchat.android.services
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:6:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:7:import com.bitchat.android.model.BitchatMessageType
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:8:import com.bitchat.android.model.DeliveryStatus
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:48:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:52:            type = BitchatMessageType.Image,
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:274:            message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:344:                    type = BitchatMessageType.File,
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:354:                    type = BitchatMessageType.File,
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:392:                        type = BitchatMessageType.File,
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:552:                    put("message_type", BitchatMessageType.Message.ordinal)
+app/src/test/kotlin/com/bitchat/android/services/ConversationDatabaseTest.kt:565:    private fun message(id: String, sender: String, timestamp: Long) = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/ContactDirectoryTest.kt:1:package com.bitchat.android.services
+app/src/test/kotlin/com/bitchat/android/services/ContactDirectoryTest.kt:5:import com.bitchat.android.identity.SecureIdentityStateManager
+app/src/test/kotlin/com/bitchat/android/services/IncomingMessageAdmissionTest.kt:1:package com.bitchat.android.services
+app/src/test/kotlin/com/bitchat/android/services/IncomingMessageAdmissionTest.kt:5:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/android/services/IncomingMessageAdmissionTest.kt:6:import com.bitchat.android.model.DeliveryStatus
+app/src/test/kotlin/com/bitchat/android/services/IncomingMessageAdmissionTest.kt:7:import com.bitchat.android.ui.ChatState
+app/src/test/kotlin/com/bitchat/android/services/IncomingMessageAdmissionTest.kt:8:import com.bitchat.android.ui.DataManager
+app/src/test/kotlin/com/bitchat/android/services/IncomingMessageAdmissionTest.kt:9:import com.bitchat.android.ui.MessageManager
+app/src/test/kotlin/com/bitchat/android/services/IncomingMessageAdmissionTest.kt:10:import com.bitchat.android.ui.NoiseSessionDelegate
+app/src/test/kotlin/com/bitchat/android/services/IncomingMessageAdmissionTest.kt:11:import com.bitchat.android.ui.PrivateChatManager
+app/src/test/kotlin/com/bitchat/android/services/IncomingMessageAdmissionTest.kt:139:        val public = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/IncomingMessageAdmissionTest.kt:234:    private fun privateMessage(id: String) = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/services/meshgraph/MeshGraphServiceTest.kt:1:package com.bitchat.android.services.meshgraph
+app/src/test/kotlin/com/bitchat/android/ui/PrivateChatManagerTest.kt:1:package com.bitchat.android.ui
+app/src/test/kotlin/com/bitchat/android/ui/PrivateChatManagerTest.kt:4:import com.bitchat.android.mesh.MeshService
+app/src/test/kotlin/com/bitchat/android/ui/PrivateChatManagerTest.kt:5:import com.bitchat.android.mesh.PeerInfo
+app/src/test/kotlin/com/bitchat/android/ui/PrivateChatManagerTest.kt:6:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/android/ui/PrivateChatManagerTest.kt:7:import com.bitchat.android.services.AppStateStore
+app/src/test/kotlin/com/bitchat/android/ui/PrivateChatManagerTest.kt:8:import com.bitchat.android.services.ContactIdentityResolver
+app/src/test/kotlin/com/bitchat/android/ui/PrivateChatManagerTest.kt:54:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/ui/PrivateChatManagerTest.kt:81:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/ui/PrivateChatManagerTest.kt:105:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/ui/PrivateChatManagerTest.kt:166:        val oldMessage = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/ui/MeshDelegateHandlerStateContractTest.kt:1:package com.bitchat.android.ui
+app/src/test/kotlin/com/bitchat/android/ui/MeshDelegateHandlerStateContractTest.kt:3:import com.bitchat.android.mesh.MeshService
+app/src/test/kotlin/com/bitchat/android/ui/MeshDelegateHandlerStateContractTest.kt:4:import com.bitchat.android.mesh.PeerInfo
+app/src/test/kotlin/com/bitchat/android/ui/MeshDelegateHandlerStateContractTest.kt:5:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/android/ui/MeshDelegateHandlerStateContractTest.kt:6:import com.bitchat.android.model.DeliveryStatus
+app/src/test/kotlin/com/bitchat/android/ui/MeshDelegateHandlerStateContractTest.kt:99:        val incoming = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/ui/MeshDelegateHandlerStateContractTest.kt:132:        val incoming = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/ui/MeshDelegateHandlerStateContractTest.kt:190:    ) = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/ui/LanguageCatalogContractTest.kt:1:package com.bitchat.android.ui
+app/src/test/kotlin/com/bitchat/android/ui/UnreadConversationSummaryTest.kt:1:package com.bitchat.android.ui
+app/src/test/kotlin/com/bitchat/android/ui/UnreadConversationSummaryTest.kt:3:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/android/ui/UnreadConversationSummaryTest.kt:131:    ) = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:1:package com.bitchat.android.ui
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:3:import com.bitchat.android.mesh.MeshService
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:4:import com.bitchat.android.mesh.PeerInfo
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:5:import com.bitchat.android.mesh.PreparedPrivateMediaTransfer
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:6:import com.bitchat.android.mesh.PrivateMediaPreparation
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:7:import com.bitchat.android.mesh.PrivateMediaWireMode
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:8:import com.bitchat.android.model.BitchatMessageType
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:9:import com.bitchat.android.model.DeliveryStatus
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:10:import com.bitchat.android.services.AppStateStore
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:11:import com.bitchat.android.services.ContactIdentityResolver
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:12:import com.bitchat.android.services.ConversationRepository
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:13:import com.bitchat.android.services.InMemoryConversationStorageCipher
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:100:        assertTrue(messages.none { it.type == com.bitchat.android.model.BitchatMessageType.Image })
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:153:        assertTrue(messages.none { it.type == com.bitchat.android.model.BitchatMessageType.Image })
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:228:                listOf(BitchatMessageType.Audio, BitchatMessageType.Image, BitchatMessageType.File),
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:276:        assertEquals(BitchatMessageType.Audio, state.privateChats.value[conversationID]?.single()?.type)
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:403:        val fileEcho = messages.single { it.type == BitchatMessageType.Image }
+app/src/test/kotlin/com/bitchat/android/ui/MediaSendingManagerMigrationTest.kt:422:            assertTrue(messages.none { it.type == com.bitchat.android.model.BitchatMessageType.Image })
+app/src/test/kotlin/com/bitchat/android/ui/ConversationSummaryTest.kt:1:package com.bitchat.android.ui
+app/src/test/kotlin/com/bitchat/android/ui/ConversationSummaryTest.kt:3:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/android/ui/ConversationSummaryTest.kt:4:import com.bitchat.android.model.BitchatMessageType
+app/src/test/kotlin/com/bitchat/android/ui/ConversationSummaryTest.kt:5:import com.bitchat.android.services.PrivateMessageArrivalOrder
+app/src/test/kotlin/com/bitchat/android/ui/ConversationSummaryTest.kt:120:        assertEquals(BitchatMessageType.Message, conversation.latestMessageType)
+app/src/test/kotlin/com/bitchat/android/ui/ConversationSummaryTest.kt:130:            type = BitchatMessageType.File
+app/src/test/kotlin/com/bitchat/android/ui/ConversationSummaryTest.kt:142:        assertEquals(BitchatMessageType.File, conversation.latestMessageType)
+app/src/test/kotlin/com/bitchat/android/ui/ConversationSummaryTest.kt:241:        type: BitchatMessageType = BitchatMessageType.Message
+app/src/test/kotlin/com/bitchat/android/ui/ConversationSummaryTest.kt:242:    ) = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/ui/ConversationSummaryTest.kt:262:        latestMessageType = BitchatMessageType.Message,
+app/src/test/kotlin/com/bitchat/android/nostr/NearbyNotesControllerTest.kt:1:package com.bitchat.android.nostr
+app/src/test/kotlin/com/bitchat/android/nostr/NearbyNotesControllerTest.kt:3:import com.bitchat.android.geohash.GeohashChannel
+app/src/test/kotlin/com/bitchat/android/nostr/NearbyNotesControllerTest.kt:4:import com.bitchat.android.geohash.GeohashChannelLevel
+app/src/test/kotlin/com/bitchat/android/nostr/NostrProtocolTest.kt:1:package com.bitchat.android.nostr
+app/src/test/kotlin/com/bitchat/android/nostr/NostrProtocolTest.kt:16:            content = "bitchat1:test",
+app/src/test/kotlin/com/bitchat/android/nostr/NostrProtocolTest.kt:23:        assertEquals("bitchat1:test", decrypted?.first)
+app/src/test/kotlin/com/bitchat/android/nostr/NostrProtocolTest.kt:33:            content = "bitchat1:forged",
+app/src/test/kotlin/com/bitchat/android/nostr/NostrPendingEventQueueTest.kt:1:package com.bitchat.android.nostr
+app/src/test/kotlin/com/bitchat/android/nostr/NostrBackgroundEventProcessorTest.kt:1:package com.bitchat.android.nostr
+app/src/test/kotlin/com/bitchat/android/nostr/NostrBackgroundEventProcessorTest.kt:5:import com.bitchat.android.services.AppStateStore
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:1:package com.bitchat.android.nostr
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:4:import com.bitchat.android.services.AppStateStore
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:5:import com.bitchat.android.services.ConversationRepository
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:6:import com.bitchat.android.services.InMemoryConversationStorageCipher
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:7:import com.bitchat.android.services.SeenMessageStore
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:8:import com.bitchat.android.ui.ChatState
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:9:import com.bitchat.android.ui.DataManager
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:10:import com.bitchat.android.ui.MessageManager
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:11:import com.bitchat.android.ui.NoiseSessionDelegate
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:12:import com.bitchat.android.ui.PrivateChatManager
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:107:                NostrEmbeddedBitChat.encodePMForNostrNoRecipient(
+app/src/test/kotlin/com/bitchat/android/nostr/NostrDirectMessageHandlerTest.kt:120:                NostrEmbeddedBitChat.encodePMForNostrNoRecipient(
+app/src/test/kotlin/com/bitchat/android/nostr/NostrRelayManagerLifecycleSmokeTest.kt:1:package com.bitchat.android.nostr
+app/src/test/kotlin/com/bitchat/android/model/AuthenticatedPeerStateTest.kt:1:package com.bitchat.android.model
+app/src/test/kotlin/com/bitchat/android/model/IdentityAnnouncementTest.kt:1:package com.bitchat.android.model
+app/src/test/kotlin/com/bitchat/android/features/file/FileUtilsConversationCleanupTest.kt:1:package com.bitchat.android.features.file
+app/src/test/kotlin/com/bitchat/android/features/file/FileUtilsConversationCleanupTest.kt:5:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/android/features/file/FileUtilsConversationCleanupTest.kt:6:import com.bitchat.android.model.BitchatMessageType
+app/src/test/kotlin/com/bitchat/android/features/file/FileUtilsConversationCleanupTest.kt:59:    private fun mediaMessage(id: String, file: File) = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/features/file/FileUtilsConversationCleanupTest.kt:63:        type = BitchatMessageType.Image,
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:1:package com.bitchat.android.contracts
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:3:import com.bitchat.android.model.BitchatFilePacket
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:4:import com.bitchat.android.model.BitchatMessage
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:5:import com.bitchat.android.model.FragmentPayload
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:6:import com.bitchat.android.model.IdentityAnnouncement
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:7:import com.bitchat.android.model.NoisePayload
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:8:import com.bitchat.android.model.NoisePayloadType
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:9:import com.bitchat.android.model.PeerCapabilities
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:10:import com.bitchat.android.model.PrivateMessagePacket
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:11:import com.bitchat.android.model.RequestSyncPacket
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:12:import com.bitchat.android.model.UnknownAnnouncementTLV
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:13:import com.bitchat.android.protocol.BinaryProtocol
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:14:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:15:import com.bitchat.android.protocol.MessageType
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:35:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:58:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:90:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:103:        assertEquals(message, BitchatMessage.fromBinaryPayload(encoded!!))
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:108:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:140:        assertEquals(message, BitchatMessage.fromBinaryPayload(encoded))
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:145:        val message = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:155:        val decoded = BitchatMessage.fromBinaryPayload(message.toBinaryPayload()!!)!!
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:241:        val packet = BitchatFilePacket(
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:251:        val decoded = BitchatFilePacket.decode(wire)
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:261:        val wire = BitchatMessage(
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:271:                BitchatMessage.fromBinaryPayload(wire.copyOf(length))
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:274:        assertNotNull(BitchatMessage.fromBinaryPayload(wire))
+app/src/test/kotlin/com/bitchat/android/contracts/ClientRewriteWireContractTest.kt:283:        assertNull(BitchatFilePacket.decode(hex("010001610400000002de")))
+app/src/test/kotlin/com/bitchat/android/identity/PrivateMediaCapabilityPinPersistenceTest.kt:1:package com.bitchat.android.identity
+app/src/test/kotlin/com/bitchat/android/identity/PrivateMediaCapabilityPinPersistenceTest.kt:4:import com.bitchat.android.model.AuthenticatedPeerState
+app/src/test/kotlin/com/bitchat/android/identity/PrivateMediaCapabilityPinPersistenceTest.kt:5:import com.bitchat.android.model.PeerCapabilities
+app/src/test/kotlin/com/bitchat/android/wifi-aware/IngressLinkPolicyTest.kt:1:package com.bitchat.android.wifiaware
+app/src/test/kotlin/com/bitchat/android/wifi-aware/WifiAwareConnectionTrackerTest.kt:1:package com.bitchat.android.wifiaware
+app/src/test/kotlin/com/bitchat/android/wifi-aware/SyncedSocketContractTest.kt:1:package com.bitchat.android.wifiaware
+app/src/test/kotlin/com/bitchat/android/util/DistributionInfoProviderTest.kt:1:package com.bitchat.android.util
+app/src/test/kotlin/com/bitchat/android/util/DistributionInfoProviderTest.kt:24:        val apk = createApk("lib/arm64-v8a/libbitchat.so")
+app/src/test/kotlin/com/bitchat/android/util/DistributionInfoProviderTest.kt:36:            "lib/arm64-v8a/libbitchat.so",
+app/src/test/kotlin/com/bitchat/android/util/DistributionInfoProviderTest.kt:37:            "lib/armeabi-v7a/libbitchat.so",
+app/src/test/kotlin/com/bitchat/android/util/DistributionInfoProviderTest.kt:38:            "lib/x86_64/libbitchat.so",
+app/src/test/kotlin/com/bitchat/android/util/DistributionInfoProviderTest.kt:39:            "lib/x86/libbitchat.so"
+app/src/test/kotlin/com/bitchat/android/util/DistributionInfoProviderTest.kt:62:        val apk = createApk("lib/x86_64/libbitchat.so")
+app/src/test/kotlin/com/bitchat/android/util/GitHubReleaseClientTest.kt:1:package com.bitchat.android.util
+app/src/test/kotlin/com/bitchat/android/util/GitHubReleaseClientTest.kt:24:                  "name": "bitchat-android-universal.apk",
+app/src/test/kotlin/com/bitchat/android/util/GitHubReleaseClientTest.kt:25:                  "browser_download_url": "https://example.test/bitchat.apk",
+app/src/test/kotlin/com/bitchat/android/util/GitHubReleaseClientTest.kt:47:              "body": "bitchat-android-universal.apk: $digest",
+app/src/test/kotlin/com/bitchat/android/util/GitHubReleaseClientTest.kt:50:                  "name": "bitchat-android-universal.apk",
+app/src/test/kotlin/com/bitchat/android/util/GitHubReleaseClientTest.kt:51:                  "browser_download_url": "https://example.test/bitchat.apk",
+app/src/test/kotlin/com/bitchat/android/util/GitHubReleaseClientTest.kt:70:                  "name": "bitchat-android-arm64.apk",
+app/src/test/kotlin/com/bitchat/android/util/GitHubReleaseClientTest.kt:87:            universalApkUrl = "https://example.test/bitchat.apk",
+app/src/test/kotlin/com/bitchat/android/util/GitHubReleaseClientTest.kt:90:            universalApkName = "bitchat-android-universal.apk"
+app/src/test/kotlin/com/bitchat/android/noise/NoiseExternalVectorTest.kt:1:package com.bitchat.android.noise
+app/src/test/kotlin/com/bitchat/android/noise/NoiseExternalVectorTest.kt:3:import com.bitchat.android.noise.southernstorm.protocol.CipherState
+app/src/test/kotlin/com/bitchat/android/noise/NoiseExternalVectorTest.kt:4:import com.bitchat.android.noise.southernstorm.protocol.HandshakeState
+app/src/test/kotlin/com/bitchat/android/noise/NoiseExternalVectorTest.kt:5:import com.bitchat.android.noise.southernstorm.protocol.Noise
+app/src/test/kotlin/com/bitchat/android/noise/NoiseSessionManagerIdentityBindingTest.kt:1:package com.bitchat.android.noise
+app/src/test/kotlin/com/bitchat/android/noise/NoiseSessionManagerIdentityBindingTest.kt:3:import com.bitchat.android.noise.southernstorm.protocol.Noise
+app/src/test/kotlin/com/bitchat/android/noise/NoiseSessionManagerHandshakeTimeoutTest.kt:1:package com.bitchat.android.noise
+app/src/test/kotlin/com/bitchat/android/noise/NoiseSessionManagerHandshakeTimeoutTest.kt:3:import com.bitchat.android.noise.southernstorm.protocol.Noise
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:1:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:4:import com.bitchat.android.crypto.EncryptionService
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:5:import com.bitchat.android.model.IdentityAnnouncement
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:6:import com.bitchat.android.model.RoutedPacket
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:7:import com.bitchat.android.noise.NoiseHandshakeProcessingResult
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:8:import com.bitchat.android.noise.NoisePeerIdentity
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:9:import com.bitchat.android.noise.NoiseSessionError
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:10:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:11:import com.bitchat.android.protocol.MessageType
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:104:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:120:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:139:        val unsigned = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:159:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:175:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:192:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:209:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:226:        val unsigned = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:234:        val invalid = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:246:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:260:        val stale = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:267:        val future = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:288:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:315:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:330:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:347:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:360:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:375:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:387:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:404:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:429:        val packet1 = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:431:            ttl = com.bitchat.android.util.AppConstants.MESSAGE_TTL_HOPS, // 7u
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:442:        val packet2 = packet1.copy(ttl = (com.bitchat.android.util.AppConstants.MESSAGE_TTL_HOPS - 1u).toUByte())
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:446:        val packet3 = packet1.copy(ttl = com.bitchat.android.util.AppConstants.MESSAGE_TTL_HOPS)
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:559:                com.bitchat.android.util.AppConstants.Security.KEY_EXCHANGE_DEDUP_TIMEOUT_MS + 1_000
+app/src/test/kotlin/com/bitchat/android/mesh/SecurityManagerTest.kt:582:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/PacketRelayManagerTest.kt:2:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/PacketRelayManagerTest.kt:4:import com.bitchat.android.model.RoutedPacket
+app/src/test/kotlin/com/bitchat/android/mesh/PacketRelayManagerTest.kt:5:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/kotlin/com/bitchat/android/mesh/PacketRelayManagerTest.kt:6:import com.bitchat.android.protocol.MessageType
+app/src/test/kotlin/com/bitchat/android/mesh/PacketRelayManagerTest.kt:7:import com.bitchat.android.util.toHexString
+app/src/test/kotlin/com/bitchat/android/mesh/PacketRelayManagerTest.kt:37:    private fun createPacket(route: List<ByteArray>?, recipient: String? = null): BitchatPacket {
+app/src/test/kotlin/com/bitchat/android/mesh/PacketRelayManagerTest.kt:38:        return BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/PacketProcessorAnnounceSideEffectTest.kt:1:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/PacketProcessorAnnounceSideEffectTest.kt:3:import com.bitchat.android.model.RoutedPacket
+app/src/test/kotlin/com/bitchat/android/mesh/PacketProcessorAnnounceSideEffectTest.kt:4:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/kotlin/com/bitchat/android/mesh/PacketProcessorAnnounceSideEffectTest.kt:5:import com.bitchat.android.protocol.MessageType
+app/src/test/kotlin/com/bitchat/android/mesh/PacketProcessorAnnounceSideEffectTest.kt:6:import com.bitchat.android.protocol.SpecialRecipients
+app/src/test/kotlin/com/bitchat/android/mesh/PacketProcessorAnnounceSideEffectTest.kt:74:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/PacketProcessorAnnounceSideEffectTest.kt:87:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/PacketProcessorAnnounceSideEffectTest.kt:108:        override fun validatePacketSecurity(packet: BitchatPacket, peerID: String) = true
+app/src/test/kotlin/com/bitchat/android/mesh/PacketProcessorAnnounceSideEffectTest.kt:126:        override fun handleFragment(packet: BitchatPacket): BitchatPacket? = null
+app/src/test/kotlin/com/bitchat/android/mesh/AuthenticatedPeerStateCoordinatorTest.kt:1:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/AuthenticatedPeerStateCoordinatorTest.kt:3:import com.bitchat.android.model.AuthenticatedPeerState
+app/src/test/kotlin/com/bitchat/android/mesh/AuthenticatedPeerStateCoordinatorTest.kt:4:import com.bitchat.android.model.PeerCapabilities
+app/src/test/kotlin/com/bitchat/android/mesh/AuthenticatedPeerStateCoordinatorTest.kt:5:import com.bitchat.android.noise.AuthenticatedNoiseSession
+app/src/test/kotlin/com/bitchat/android/mesh/AuthenticatedPeerStateCoordinatorTest.kt:6:import com.bitchat.android.noise.NoisePeerIdentity
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaSecurityTest.kt:1:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaSecurityTest.kt:3:import com.bitchat.android.model.AuthenticatedPeerState
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaSecurityTest.kt:4:import com.bitchat.android.model.PeerCapabilities
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaSecurityTest.kt:5:import com.bitchat.android.noise.AuthenticatedNoiseSession
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:1:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:4:import com.bitchat.android.model.IdentityAnnouncement
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:5:import com.bitchat.android.model.AuthenticatedPeerState
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:6:import com.bitchat.android.model.BitchatFilePacket
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:7:import com.bitchat.android.model.NoisePayload
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:8:import com.bitchat.android.model.NoisePayloadType
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:9:import com.bitchat.android.model.PeerCapabilities
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:10:import com.bitchat.android.model.RoutedPacket
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:11:import com.bitchat.android.noise.NoisePeerIdentity
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:12:import com.bitchat.android.noise.AuthenticatedNoiseSession
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:13:import com.bitchat.android.noise.NoiseDecryptionResult
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:14:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:15:import com.bitchat.android.protocol.MessageType
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:16:import com.bitchat.android.protocol.SpecialRecipients
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:17:import com.bitchat.android.services.meshgraph.MeshGraphService
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:18:import com.bitchat.android.util.AppConstants
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:161:            val file = BitchatFilePacket(
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:167:            val unsigned = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:193:            val file = BitchatFilePacket(
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:199:            val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:220:            val file = BitchatFilePacket(
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:235:            val outerPacket = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:270:        val base = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:438:    private fun encryptedPacket(): BitchatPacket = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:453:    ): BitchatPacket {
+app/src/test/kotlin/com/bitchat/android/mesh/MessageHandlerTest.kt:460:        return BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/PowerProfileResolverTest.kt:1:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:1:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:3:import com.bitchat.android.model.BitchatFilePacket
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:4:import com.bitchat.android.model.NoisePayload
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:5:import com.bitchat.android.model.NoisePayloadType
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:6:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:7:import com.bitchat.android.protocol.MessageType
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:8:import com.bitchat.android.noise.AuthenticatedNoiseSession
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:170:            com.bitchat.android.util.AppConstants.Fragmentation.MAX_FRAGMENTS_PER_ID *
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:171:                com.bitchat.android.util.AppConstants.Fragmentation.MAX_FRAGMENT_SIZE
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:292:            BitchatFilePacket(
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:324:        finalizer: (BitchatPacket) -> BitchatPacket? = { packet ->
+app/src/test/kotlin/com/bitchat/android/mesh/PrivateMediaTransferPreparerTest.kt:340:    private fun file(size: Int) = BitchatFilePacket(
+app/src/test/kotlin/com/bitchat/android/mesh/DirectLinkAnnouncementPolicyTest.kt:1:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/DirectLinkAnnouncementPolicyTest.kt:3:import com.bitchat.android.model.RoutedPacket
+app/src/test/kotlin/com/bitchat/android/mesh/DirectLinkAnnouncementPolicyTest.kt:4:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/kotlin/com/bitchat/android/mesh/DirectLinkAnnouncementPolicyTest.kt:5:import com.bitchat.android.protocol.MessageType
+app/src/test/kotlin/com/bitchat/android/mesh/DirectLinkAnnouncementPolicyTest.kt:42:        packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/mesh/BluetoothConnectionTrackerLinkObservationTest.kt:1:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/RetryingControlPacketSenderTest.kt:1:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/BluetoothConnectionManagerTest.kt:1:package com.bitchat.android.mesh
+app/src/test/kotlin/com/bitchat/android/mesh/BluetoothConnectionManagerTest.kt:3:import com.bitchat.android.model.RoutedPacket
+app/src/test/kotlin/com/bitchat/android/mesh/BluetoothConnectionManagerTest.kt:4:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/kotlin/com/bitchat/android/mesh/BluetoothConnectionManagerTest.kt:5:import com.bitchat.android.protocol.MessageType
+app/src/test/kotlin/com/bitchat/android/mesh/BluetoothConnectionManagerTest.kt:33:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/hotspot/HotspotStartupPolicyTest.kt:1:package com.bitchat.android.hotspot
+app/src/test/kotlin/com/bitchat/android/hotspot/HotspotPermissionsTest.kt:1:package com.bitchat.android.hotspot
+app/src/test/kotlin/com/bitchat/android/service/TransportBridgeServiceTest.kt:1:package com.bitchat.android.service
+app/src/test/kotlin/com/bitchat/android/service/TransportBridgeServiceTest.kt:4:import com.bitchat.android.model.RoutedPacket
+app/src/test/kotlin/com/bitchat/android/service/TransportBridgeServiceTest.kt:5:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/kotlin/com/bitchat/android/service/TransportBridgeServiceTest.kt:6:import com.bitchat.android.protocol.MessageType
+app/src/test/kotlin/com/bitchat/android/service/TransportBridgeServiceTest.kt:45:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/service/TransportBridgeServiceTest.kt:91:        val packet = BitchatPacket(
+app/src/test/kotlin/com/bitchat/android/service/PeerAvailabilityNotifierTest.kt:1:package com.bitchat.android.service
+app/src/test/kotlin/com/bitchat/android/service/PeerAvailabilityNotifierTest.kt:248:            override fun title(): String = "Bitchatters nearby"
+app/src/test/kotlin/com/bitchat/android/onboarding/SystemStateManagerContractTest.kt:1:package com.bitchat.android.onboarding
+app/src/test/kotlin/com/bitchat/android/onboarding/OptionalPermissionRequestTest.kt:1:package com.bitchat.android.onboarding
+app/src/test/kotlin/com/bitchat/android/onboarding/OptionalPermissionRequestTest.kt:24:        application.getSharedPreferences("bitchat_permissions", Context.MODE_PRIVATE)
+app/src/test/java/com/bitchat/android/favorites/FavoriteRelationshipTest.kt:1:package com.bitchat.android.favorites
+app/src/test/java/com/bitchat/android/ui/CommandProcessorTest.kt:1:package com.bitchat.android.ui
+app/src/test/java/com/bitchat/android/ui/CommandProcessorTest.kt:5:import com.bitchat.android.geohash.ChannelID
+app/src/test/java/com/bitchat/android/ui/CommandProcessorTest.kt:6:import com.bitchat.android.geohash.GeohashChannel
+app/src/test/java/com/bitchat/android/ui/CommandProcessorTest.kt:7:import com.bitchat.android.geohash.GeohashChannelLevel
+app/src/test/java/com/bitchat/android/ui/CommandProcessorTest.kt:8:import com.bitchat.android.mesh.MeshService
+app/src/test/java/com/bitchat/android/ui/CommandProcessorTest.kt:9:import com.bitchat.android.model.BitchatMessage
+app/src/test/java/com/bitchat/android/ui/CommandProcessorTest.kt:107:    val message = BitchatMessage(
+app/src/test/java/com/bitchat/android/ui/CashuTokenDecoderTest.kt:1:package com.bitchat.android.ui
+app/src/test/java/com/bitchat/android/ui/MessageGroupingTest.kt:1:package com.bitchat.android.ui
+app/src/test/java/com/bitchat/android/ui/MessageGroupingTest.kt:4:import com.bitchat.android.model.BitchatMessage
+app/src/test/java/com/bitchat/android/ui/MessageGroupingTest.kt:27:    ) = BitchatMessage(
+app/src/test/java/com/bitchat/android/ui/MessageGroupingTest.kt:59:        // Two people can pick the same nickname; peer ID is the authority.
+app/src/test/java/com/bitchat/android/ui/MessageGroupingTest.kt:152:    private fun BitchatMessage.copyWithOffset(offsetMs: Long) =
+app/src/test/java/com/bitchat/android/ui/ConversationSecurityStateTest.kt:1:package com.bitchat.android.ui
+app/src/test/java/com/bitchat/android/ui/GeohashPresenceGroupingTest.kt:1:package com.bitchat.android.ui
+app/src/test/java/com/bitchat/android/ui/LocationChannelsSheetTest.kt:1:package com.bitchat.android.ui
+app/src/test/java/com/bitchat/android/ui/LocationChannelsSheetTest.kt:3:import com.bitchat.android.geohash.ChannelID
+app/src/test/java/com/bitchat/android/ui/LocationChannelsSheetTest.kt:4:import com.bitchat.android.geohash.GeohashChannel
+app/src/test/java/com/bitchat/android/ui/LocationChannelsSheetTest.kt:5:import com.bitchat.android.geohash.GeohashChannelLevel
+app/src/test/java/com/bitchat/android/ui/MessageArrivalTrackerTest.kt:1:package com.bitchat.android.ui
+app/src/test/java/com/bitchat/android/ui/MessageArrivalTrackerTest.kt:3:import com.bitchat.android.model.BitchatMessage
+app/src/test/java/com/bitchat/android/ui/MessageArrivalTrackerTest.kt:19:    private fun msg(id: String = "m${seq++}") = BitchatMessage(
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:1:package com.bitchat.android.ui
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:8:import com.bitchat.android.model.BitchatMessage
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:9:import com.bitchat.android.ui.theme.BitchatFontFamily
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:10:import com.bitchat.android.ui.theme.ChatVisualTokens
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:11:import com.bitchat.android.ui.theme.DarkBitchatColorScheme
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:12:import com.bitchat.android.ui.theme.DarkBitchatPalette
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:13:import com.bitchat.android.ui.theme.LightBitchatColorScheme
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:14:import com.bitchat.android.ui.theme.LightBitchatPalette
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:15:import com.bitchat.android.ui.theme.MessageBodyTextStyle
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:16:import com.bitchat.android.ui.theme.MessageSenderTextStyle
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:17:import com.bitchat.android.ui.theme.PeerColorStyle
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:18:import com.bitchat.android.ui.theme.colorForPeer
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:40:    private val palette = DarkBitchatPalette
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:41:    private val colorScheme = DarkBitchatColorScheme
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:47:    ) = BitchatMessage(
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:149:        assertEquals(BitchatFontFamily, MessageBodyTextStyle.fontFamily)
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:231:                BitchatMessage(
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:451:        val dark = colorForPeer(identity, DarkBitchatPalette)
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:452:        val light = colorForPeer(identity, LightBitchatPalette)
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:478:                DarkBitchatPalette
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:491:    fun `material owns standard text while Bitchat palette owns peer chroma`() {
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:492:        assertEquals(Color(0xFFF5F5F5), DarkBitchatColorScheme.onSurface)
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:493:        assertTrue(LightBitchatColorScheme.onSurface != DarkBitchatColorScheme.onSurface)
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:495:            LightBitchatPalette.peerColors != DarkBitchatPalette.peerColors
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:504:            BitchatMessage(
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:525:            BitchatMessage(
+app/src/test/java/com/bitchat/android/ui/ChatUIUtilsTest.kt:540:            BitchatMessage(
+app/src/test/java/com/bitchat/android/ui/MessageInteractionUtilsTest.kt:1:package com.bitchat.android.ui
+app/src/test/java/com/bitchat/android/ui/MessageInteractionUtilsTest.kt:3:import com.bitchat.android.geohash.GeohashChannelLevel
+app/src/test/java/com/bitchat/android/ui/MessageInteractionUtilsTest.kt:4:import com.bitchat.android.model.BitchatMessage
+app/src/test/java/com/bitchat/android/ui/MessageInteractionUtilsTest.kt:25:    fun `URL normalization preserves explicit HTTP schemes`() {
+app/src/test/java/com/bitchat/android/ui/MessageInteractionUtilsTest.kt:56:    private fun message(sender: String, senderPeerId: String? = null): BitchatMessage =
+app/src/test/java/com/bitchat/android/ui/MessageInteractionUtilsTest.kt:57:        BitchatMessage(
+app/src/test/java/com/bitchat/android/ui/MentionSuggestionsTest.kt:1:package com.bitchat.android.ui
+app/src/test/java/com/bitchat/android/nostr/NostrLiveSubscriptionPrivacyTest.kt:1:package com.bitchat.android.nostr
+app/src/test/java/com/bitchat/android/mesh/BLEPacketPaddingPolicyTest.kt:1:package com.bitchat.android.mesh
+app/src/test/java/com/bitchat/android/mesh/BLEPacketPaddingPolicyTest.kt:3:import com.bitchat.android.protocol.BinaryProtocol
+app/src/test/java/com/bitchat/android/mesh/BLEPacketPaddingPolicyTest.kt:4:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/java/com/bitchat/android/mesh/BLEPacketPaddingPolicyTest.kt:5:import com.bitchat.android.protocol.MessagePadding
+app/src/test/java/com/bitchat/android/mesh/BLEPacketPaddingPolicyTest.kt:6:import com.bitchat.android.protocol.MessageType
+app/src/test/java/com/bitchat/android/mesh/BLEPacketPaddingPolicyTest.kt:107:    private fun packet(type: UByte, payload: ByteArray): BitchatPacket {
+app/src/test/java/com/bitchat/android/mesh/BLEPacketPaddingPolicyTest.kt:109:        return BitchatPacket(
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:1:package com.bitchat.android.mesh
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:3:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:4:import com.bitchat.android.protocol.MessageType
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:5:import com.bitchat.android.model.FragmentPayload
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:35:        val packet = BitchatPacket(
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:74:        val packet = BitchatPacket(
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:108:        val packetNoRoute = BitchatPacket(
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:124:        val packetWithRoute = BitchatPacket(
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:155:        val originalPacket = BitchatPacket(
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:167:        var reassembledPacket: BitchatPacket? = null
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:194:        val packet = BitchatPacket(
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:224:        fun plan(contentSize: Int): List<BitchatPacket> = fragmentManager.createFragments(
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:225:            BitchatPacket(
+app/src/test/java/com/bitchat/android/mesh/FragmentManagerTest.kt:229:                recipientID = com.bitchat.android.protocol.SpecialRecipients.BROADCAST,
+app/src/test/java/com/bitchat/android/mesh/FragmentingPacketSenderTest.kt:1:package com.bitchat.android.mesh
+app/src/test/java/com/bitchat/android/mesh/FragmentingPacketSenderTest.kt:3:import com.bitchat.android.model.RoutedPacket
+app/src/test/java/com/bitchat/android/mesh/FragmentingPacketSenderTest.kt:4:import com.bitchat.android.protocol.BitchatPacket
+app/src/test/java/com/bitchat/android/mesh/FragmentingPacketSenderTest.kt:5:import com.bitchat.android.protocol.MessageType
+app/src/test/java/com/bitchat/android/mesh/FragmentingPacketSenderTest.kt:6:import com.bitchat.android.util.AppConstants
+app/src/test/java/com/bitchat/android/mesh/FragmentingPacketSenderTest.kt:26:    private fun packetWithPayload(bytes: Int): BitchatPacket {
+app/src/test/java/com/bitchat/android/mesh/FragmentingPacketSenderTest.kt:29:        return BitchatPacket(
+app/src/test/java/com/bitchat/android/crypto/EncryptionServiceTest.kt:1:package com.bitchat.android.crypto
+app/src/test/java/com/bitchat/android/crypto/EncryptionServiceTest.kt:5:import com.bitchat.android.noise.NoiseEncryptionService
+app/src/test/java/com/bitchat/android/protocol/DecompressionResourcePoolTest.kt:1:package com.bitchat.android.protocol
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:1:package com.bitchat.android.protocol
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:3:import com.bitchat.android.model.BitchatFilePacket
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:404:    fun `BitchatPacket toBinaryData propagates padding flag`() {
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:642:     * anything it can't parse as a valid BitchatPacket.
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:677:        val shortPacket = BitchatPacket(
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:697:        val longPacket = BitchatPacket(
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:995:        val max = com.bitchat.android.util.AppConstants.Protocol.MAX_PAYLOAD_LENGTH
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:1015:        val max = com.bitchat.android.util.AppConstants.Protocol.MAX_PAYLOAD_LENGTH
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:1108:        val max = com.bitchat.android.util.AppConstants.Protocol.MAX_PAYLOAD_LENGTH
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:1276:        val filePayload = BitchatFilePacket(
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:1285:            BitchatPacket(
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:1539:    ) = BitchatPacket(
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:1551:    private fun roundTrip(packet: BitchatPacket): BitchatPacket {
+app/src/test/java/com/bitchat/android/protocol/BinaryProtocolTest.kt:1567:    private fun assertPacketEquals(expected: BitchatPacket, actual: BitchatPacket) {
+app/src/test/java/com/bitchat/android/geohash/LiveLocationAccessPolicyTest.kt:1:package com.bitchat.android.geohash
+app/src/test/java/com/bitchat/android/geohash/GeohashNostrPrivacyPolicyTest.kt:1:package com.bitchat.android.geohash
+app/src/debug/AndroidManifest.xml:11:            android:name="com.bitchat.android.testhook.TestHookReceiver"
+app/src/debug/AndroidManifest.xml:15:                <action android:name="com.bitchat.droid.TEST_HOOK" />
+app/src/debug/java/com/bitchat/android/testhook/TestHookReceiver.kt:1:package com.bitchat.android.testhook
+app/src/debug/java/com/bitchat/android/testhook/TestHookReceiver.kt:16: *   adb shell am broadcast -a com.bitchat.droid.TEST_HOOK \
+app/src/debug/java/com/bitchat/android/testhook/TestHookReceiver.kt:20: *   adb shell run-as com.bitchat.droid cat cache/testhook/results/<id>.json
+app/src/debug/java/com/bitchat/android/testhook/TestHookReceiver.kt:26:        const val ACTION = "com.bitchat.droid.TEST_HOOK"
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:1:package com.bitchat.android.testhook
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:6:import com.bitchat.android.favorites.FavoritesPersistenceService
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:7:import com.bitchat.android.features.file.FileUtils
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:8:import com.bitchat.android.identity.SecureIdentityStateManager
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:9:import com.bitchat.android.mesh.MeshService
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:10:import com.bitchat.android.mesh.PrivateMediaPreparation
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:11:import com.bitchat.android.mesh.TransferProgressManager
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:12:import com.bitchat.android.model.BitchatFilePacket
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:13:import com.bitchat.android.model.RoutedPacket
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:14:import com.bitchat.android.noise.NoiseSession
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:15:import com.bitchat.android.protocol.BitchatPacket
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:16:import com.bitchat.android.service.MeshForegroundService
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:17:import com.bitchat.android.service.MeshServiceHolder
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:18:import com.bitchat.android.service.TransportBridgeService
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:19:import com.bitchat.android.services.AppStateStore
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:20:import com.bitchat.android.ui.DataManager
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:21:import com.bitchat.android.ui.PrivateMediaRecipientResolver
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:22:import com.bitchat.android.util.AppConstants
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:273:        val matches: (com.bitchat.android.model.BitchatMessage) -> Boolean = { msg ->
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:371:        val packet = BitchatFilePacket(
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:424:        packet: BitchatFilePacket,
+app/src/debug/java/com/bitchat/android/testhook/TestHookDriver.kt:506:        val packet = BitchatPacket(
+wear/src/test/java/com/bitchat/watch/ui/WearPeerIdentityStateTest.kt:1:package com.bitchat.watch.ui
+wear/src/test/java/com/bitchat/watch/notification/WearNotificationPolicyTest.kt:1:package com.bitchat.watch.notification
+wear/src/test/java/com/bitchat/watch/WearNavigationStateTest.kt:1:package com.bitchat.watch
+wear/src/debug/AndroidManifest.xml:5:            android:name="com.bitchat.watch.testhook.WearTestHookReceiver"
+wear/src/debug/AndroidManifest.xml:8:                <action android:name="com.bitchat.watch.TEST_HOOK" />
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:1:package com.bitchat.watch.testhook
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:6:import com.bitchat.android.model.RoutedPacket
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:7:import com.bitchat.android.noise.NoiseSession
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:8:import com.bitchat.android.protocol.BitchatPacket
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:9:import com.bitchat.android.service.TransportBridgeService
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:10:import com.bitchat.android.services.AppStateStore
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:11:import com.bitchat.watch.mesh.WearMeshService
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:12:import com.bitchat.watch.service.WearMeshForegroundService
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:13:import com.bitchat.watch.ui.WearPeerIdentityState
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:253:        val matches: (com.bitchat.android.model.BitchatMessage) -> Boolean = { msg ->
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:291:                    com.bitchat.watch.ui.FavoriteIndicator.Favorite -> "filled"
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:292:                    com.bitchat.watch.ui.FavoriteIndicator.FavoritedUs -> "outlined_orange"
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:293:                    com.bitchat.watch.ui.FavoriteIndicator.None -> "outlined"
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookDriver.kt:329:        val packet = BitchatPacket(
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookReceiver.kt:1:package com.bitchat.watch.testhook
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookReceiver.kt:15: *   adb shell am broadcast -a com.bitchat.watch.TEST_HOOK \
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookReceiver.kt:18: * Result is written to cache/testhook/results/<id>.json (readable via run-as com.bitchat.watch)
+wear/src/debug/java/com/bitchat/watch/testhook/WearTestHookReceiver.kt:25:        const val ACTION = "com.bitchat.watch.TEST_HOOK"
