@@ -1,0 +1,49 @@
+
+=== MAOBITS OS ANDROID - TECHNICAL IDENTITY MIGRATION PLAN 1.2.1 ===
+Generated at: 2026-07-30T20:25:58-05:00
+
+=== CURRENT BRANCH ===
+identity/1.2.1-technical-identity-migration-plan
+
+=== CURRENT COMMIT ===
+0be3ae8 (HEAD -> identity/1.2.1-technical-identity-migration-plan, origin/identity/1.2.0-technical-identity-audit, identity/1.2.0-technical-identity-audit) docs(identity): audit technical identity migration scope
+
+=== AUDIT DIRECTORY ===
+docs/04-identity/evidence/2026-07-30-technical-identity-audit
+
+=== PLAN DIRECTORY ===
+docs/04-identity/evidence/2026-07-30-technical-identity-migration-plan
+
+=== TARGET MAP ===
+{
+  "phase": "1.2.1",
+  "status": "planning-only",
+  "project": "Maobits OS Android",
+  "principle": "Person -> Commitment -> Confirmation",
+  "recommended_targets": {
+    "root_project_name": "maobits-os-android",
+    "app_application_id_candidate": "com.maobits.os.android",
+    "wear_application_id_candidate": "com.maobits.os.wear",
+    "app_namespace_candidate": "com.maobits.os.android",
+    "wear_namespace_candidate": "com.maobits.os.wear",
+    "shared_kotlin_package_candidate": "com.maobits.os",
+    "app_kotlin_package_candidate": "com.maobits.os.android",
+    "wear_kotlin_package_candidate": "com.maobits.os.wear",
+    "custom_permission_candidate": "com.maobits.os.android.permission.FORCE_FINISH",
+    "fileprovider_authority_strategy": "${applicationId}.fileprovider",
+    "primary_deep_link_scheme_candidate": "maobitsos",
+    "legacy_deep_link_scheme_candidate": "bitchat",
+    "visible_app_name": "Maobits OS"
+  },
+  "migration_policy": {
+    "no_mass_replacement": true,
+    "application_id_change_requires_clean_install_or_explicit_migration": true,
+    "support_legacy_deep_link_during_transition": true,
+    "preserve_attribution_and_license_files": true,
+    "validate_app_wear_test_lint_real_device": true
+  }
+}
+=== GENERATED PLAN FILES ===
+docs/04-identity/evidence/2026-07-30-technical-identity-migration-plan/TECHNICAL-IDENTITY-MIGRATION-DECISION-MATRIX.md
+docs/04-identity/evidence/2026-07-30-technical-identity-migration-plan/TECHNICAL-IDENTITY-MIGRATION-PLAN-SUMMARY.txt
+docs/04-identity/evidence/2026-07-30-technical-identity-migration-plan/TECHNICAL-IDENTITY-MIGRATION-RISK-REGISTER.md

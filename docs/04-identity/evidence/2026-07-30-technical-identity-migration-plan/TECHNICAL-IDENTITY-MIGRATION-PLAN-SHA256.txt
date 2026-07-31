@@ -1,0 +1,3 @@
+91a814d6bf75c4891fe6db4950ecb451cad2bc5f023b144ba523155f82ab6f9d  docs/04-identity/evidence/2026-07-30-technical-identity-migration-plan/TECHNICAL-IDENTITY-MIGRATION-DECISION-MATRIX.md
+85f2c460289bcebc2a93d5676d86965a660c59daccfea966cf69eb721236424b  docs/04-identity/evidence/2026-07-30-technical-identity-migration-plan/TECHNICAL-IDENTITY-MIGRATION-PLAN-SUMMARY.txt
+14fae1931253b5f22ba6c1c3712e912d0f369dd6d7afe995222eada8f063c851  docs/04-identity/evidence/2026-07-30-technical-identity-migration-plan/TECHNICAL-IDENTITY-MIGRATION-RISK-REGISTER.md
