@@ -1,0 +1,151 @@
+{
+  "generated_at": "2026-07-30T18:23:46.861316-05:00",
+  "phase": "1.1.10",
+  "purpose": "Controlled Maobits OS adaptive icon replacement.",
+  "operations": [
+    {
+      "mode": "apply",
+      "relative_path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "backup_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/docs/03-brand/evidence/2026-07-30-controlled-adaptive-icon-replacement/backup-before-adaptive-icon-replacement/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "before_sha256": "becf0129421dceb72f1d674c6a10c41d4537943bbe7220e47b5b2b0f6e7a4735",
+      "after_sha256": "a7dc6fbb7bb52858cbdf3a41120a10a8808bf4907e1b679134b6f742a63a8694",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "backup_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/docs/03-brand/evidence/2026-07-30-controlled-adaptive-icon-replacement/backup-before-adaptive-icon-replacement/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "before_sha256": "becf0129421dceb72f1d674c6a10c41d4537943bbe7220e47b5b2b0f6e7a4735",
+      "after_sha256": "a7dc6fbb7bb52858cbdf3a41120a10a8808bf4907e1b679134b6f742a63a8694",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "app/src/main/res/values/maobits_os_icon_colors.xml",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/app/src/main/res/values/maobits_os_icon_colors.xml",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "4a38ee53554c7b2980916b444d33203a221e3bee7ea9bf5e4506759574bd45d0",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "4244920b326c03ca7a7c551a18ae06d2e5f2bae04ae460fe51fbac2a24a84be5",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "1dd3a6f4779cd6c70fc1719ad61d15d5e3254ef5f86e5ee7ea17f991459d51d4",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "969ff3f76ea973f9c5e6c2937ec444198d57861c6d133de1eaa18f1058548919",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "7e890d7831703c02a9233b7d5649a7e2ee2264a4b72c854eedd1c57dbd8d5e25",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "b215ea82dfc3552ca532d8a2b8af85e8b4fc01d3a670e28a2fdc39a2647f6f49",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "wear/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/wear/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "backup_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/docs/03-brand/evidence/2026-07-30-controlled-adaptive-icon-replacement/backup-before-adaptive-icon-replacement/wear/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "before_sha256": "becf0129421dceb72f1d674c6a10c41d4537943bbe7220e47b5b2b0f6e7a4735",
+      "after_sha256": "a7dc6fbb7bb52858cbdf3a41120a10a8808bf4907e1b679134b6f742a63a8694",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "wear/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/wear/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "backup_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/docs/03-brand/evidence/2026-07-30-controlled-adaptive-icon-replacement/backup-before-adaptive-icon-replacement/wear/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "before_sha256": "becf0129421dceb72f1d674c6a10c41d4537943bbe7220e47b5b2b0f6e7a4735",
+      "after_sha256": "a7dc6fbb7bb52858cbdf3a41120a10a8808bf4907e1b679134b6f742a63a8694",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "wear/src/main/res/values/maobits_os_icon_colors.xml",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/wear/src/main/res/values/maobits_os_icon_colors.xml",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "4a38ee53554c7b2980916b444d33203a221e3bee7ea9bf5e4506759574bd45d0",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "wear/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/wear/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "4244920b326c03ca7a7c551a18ae06d2e5f2bae04ae460fe51fbac2a24a84be5",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "wear/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/wear/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "1dd3a6f4779cd6c70fc1719ad61d15d5e3254ef5f86e5ee7ea17f991459d51d4",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "wear/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/wear/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "969ff3f76ea973f9c5e6c2937ec444198d57861c6d133de1eaa18f1058548919",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "wear/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/wear/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "7e890d7831703c02a9233b7d5649a7e2ee2264a4b72c854eedd1c57dbd8d5e25",
+      "status": "applied"
+    },
+    {
+      "mode": "apply",
+      "relative_path": "wear/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "target_path": "/home/maobits/Documentos/ingenieria/proyectos/maobits-os/05-maobits-os-source/05.1-maobits-os-source-android/wear/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "backup_path": null,
+      "before_sha256": null,
+      "after_sha256": "b215ea82dfc3552ca532d8a2b8af85e8b4fc01d3a670e28a2fdc39a2647f6f49",
+      "status": "applied"
+    }
+  ]
+}
